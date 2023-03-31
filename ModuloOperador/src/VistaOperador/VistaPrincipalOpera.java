@@ -62,7 +62,7 @@ public class VistaPrincipalOpera extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 VistaOperador JframeOperador=new VistaOperador();
-                JframeOperador.setVisible(true);
+                JframeOperador.panelLogin();
                 dispose();
 
                 panelModulos.setVisible(false);
