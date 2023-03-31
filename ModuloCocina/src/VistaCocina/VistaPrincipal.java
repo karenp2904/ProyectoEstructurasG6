@@ -60,8 +60,8 @@ public class VistaPrincipal extends JFrame {
         botonIniciar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                VistaCocina JframeCocina=new VistaCocina();
-                JframeCocina.setVisible(true);
+                VistaAdmin admin=new VistaAdmin();
+                admin.panelRegistro();
                 dispose();
 
                 panelModulos.setVisible(false);

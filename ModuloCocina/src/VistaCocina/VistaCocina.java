@@ -17,7 +17,7 @@ public class VistaCocina extends JFrame{
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setVisible(true);
         this.setBackground(Color.white);
-        panelRegistro();
+       panelRegistro();
     }
 
     public void panelRegistro(){
@@ -39,7 +39,7 @@ public class VistaCocina extends JFrame{
         JLabel cocinaText=new JLabel("COCINA");
         cocinaText.setBackground(Color.black);
         cocinaText.setFont(new Font("Arial", Font.BOLD, 20));
-        cocinaText.setBounds(90,140,200,100);
+        cocinaText.setBounds(120,140,200,100);
         panelBlanco.add(cocinaText);
 
 
