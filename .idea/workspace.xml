@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ae27cf3b-5fc8-4a93-9aba-7e39e00c2c02" name="Changes" comment="Actualizacion de paquetes" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="main" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ee83fff8-f86c-46e9-8724-867ca9da2f46" />
+        <option name="url" value="https://github.com/karenp2904/ProyectoEstructurasG6.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NlIN9GqTH8xY3GDPoTwpko7gxt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/karen/IdeaProjects/ProyectoEstructurasG6",
+    "settings.editor.selected.configurable": "MTConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloCocina\src" />
+      <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloCocina\src\VistaCocina" />
+      <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloRepartidor\src" />
+      <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloOperador\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloCocina\src\VistaCocina" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ProyectoEstructurasG6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ProyectoEstructurasG6" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae27cf3b-5fc8-4a93-9aba-7e39e00c2c02" name="Changes" comment="" />
+      <created>1680232210428</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680232210428</updated>
+    </task>
+    <task id="LOCAL-00001" summary="probando">
+      <created>1680232781826</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680232781826</updated>
+    </task>
+    <task id="LOCAL-00002" summary="probando">
+      <created>1680233789669</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680233789669</updated>
+    </task>
+    <task id="LOCAL-00003" summary="probando">
+      <created>1680235515756</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680235515757</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ModuloOperador vista de login y buscar pedido">
+      <created>1680242354890</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680242354891</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Modulo Operador- Ventana registro y actulizacion de datos">
+      <created>1680292342363</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680292342363</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Modulo Operador- Ventana registro y actulizacion de datos">
+      <created>1680310463340</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680310463340</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Organizacion de poryectos MVC">
+      <created>1680319153021</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680319153021</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Organizacion de poryectos MVC">
+      <created>1680319177397</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680319177397</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Actualizacion de paquetes">
+      <created>1680319817611</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680319817611</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="probando" />
+    <MESSAGE value="ModuloOperador vista de login y buscar pedido" />
+    <MESSAGE value="Modulo admin- conexion de admin con cocina&#10;Ventanas de menu y añadir empleados" />
+    <MESSAGE value="Modulo Operador- Ventana registro y actulizacion de datos" />
+    <MESSAGE value="Organizacion de poryectos MVC" />
+    <MESSAGE value="Actualizacion de paquetes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion de paquetes" />
+  </component>
+</project>
