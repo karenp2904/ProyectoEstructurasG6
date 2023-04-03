@@ -150,7 +150,7 @@ public class VistaAdmin extends JFrame {
         botonAgregarOperador.setBorder(new Bordes(10));
         botonAgregarOperador.setBackground(new Color(74,126,235));
         botonAgregarOperador.setBorderPainted(false);
-        ImageIcon imgOpera2= new ImageIcon("ModuloCocina/src/Imagenes/botonAñadirOperador.png");// se le pone icono a boton
+        ImageIcon imgOpera2= new ImageIcon("ModuloCocina/src/Imagenes/botonAñadirOperador2.png");// se le pone icono a boton
         Icon iconopera2= new ImageIcon(imgOpera2.getImage().getScaledInstance(botonAgregarOperador.getWidth(), botonAgregarOperador.getHeight(), Image.SCALE_DEFAULT));
         botonAgregarOperador.setRolloverIcon(iconopera2);
         botonAgregarOperador.setBackground(Color.white);
@@ -176,7 +176,7 @@ public class VistaAdmin extends JFrame {
         botonAgregarRepartidor.setBorder(new Bordes(10));
         botonAgregarRepartidor.setBackground(new Color(74,126,235));
         botonAgregarRepartidor.setBorderPainted(false);
-        ImageIcon imgRepartidor2= new ImageIcon("ModuloCocina/src/Imagenes/botonAñadirRepartidor.png");// se le pone icono a boton
+        ImageIcon imgRepartidor2= new ImageIcon("ModuloCocina/src/Imagenes/botonAñadirRepartidor2.png");// se le pone icono a boton
         Icon iRepar2= new ImageIcon(imgRepartidor2.getImage().getScaledInstance(botonAgregarRepartidor.getWidth(), botonAgregarRepartidor.getHeight(), Image.SCALE_DEFAULT));
         botonAgregarRepartidor.setRolloverIcon(iRepar2);
         botonAgregarRepartidor.setBackground(Color.white);
@@ -201,7 +201,7 @@ public class VistaAdmin extends JFrame {
         botonActivarCocina.setBorder(new Bordes(10));
         botonActivarCocina.setBackground(new Color(74,126,235));
         botonActivarCocina.setBorderPainted(false);
-        ImageIcon imgProductos2= new ImageIcon("ModuloCocina/src/Imagenes/botonActivarCocina.png");// se le pone icono a boton
+        ImageIcon imgProductos2= new ImageIcon("ModuloCocina/src/Imagenes/botonActivarCocina2.png");// se le pone icono a boton
         Icon iprod2= new ImageIcon(imgProductos2.getImage().getScaledInstance(botonActivarCocina.getWidth(), botonActivarCocina.getHeight(), Image.SCALE_DEFAULT));
         botonActivarCocina.setRolloverIcon(iprod2);
         botonActivarCocina.setBackground(Color.white);
@@ -210,6 +210,8 @@ public class VistaAdmin extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 VistaCocina vista=new VistaCocina();
+                vista.panelRegistro();
+                System.out.println("Service on");
                 dispose();
 
             }

@@ -75,7 +75,7 @@ public class VistaAdminDatos extends JFrame {
         botonIngresar.setLayout(null);
         botonIngresar.setOpaque(true);
         botonIngresar.setBorderPainted(false);
-        ImageIcon imgadmin= new ImageIcon("ModuloCocina/src/Imagenes/btningresarPedido.png");// se le pone icono a boton
+        ImageIcon imgadmin= new ImageIcon("ModuloCocina/src/Imagenes/btningresarPedido2.png");// se le pone icono a boton
         Icon iconAdmin= new ImageIcon(imgadmin.getImage().getScaledInstance(botonIngresar.getWidth(), botonIngresar.getHeight(), Image.SCALE_DEFAULT));
         botonIngresar.setRolloverIcon(iconAdmin);
         botonIngresar.setBackground(Color.white);
@@ -185,7 +185,7 @@ public class VistaAdminDatos extends JFrame {
         botonIngresar.setLayout(null);
         botonIngresar.setOpaque(true);
         botonIngresar.setBorderPainted(false);
-        ImageIcon imgadmin= new ImageIcon("ModuloCocina/src/Imagenes/btningresarPedido.png");// se le pone icono a boton
+        ImageIcon imgadmin= new ImageIcon("ModuloCocina/src/Imagenes/btningresarPedido2.png");// se le pone icono a boton
         Icon iconAdmin= new ImageIcon(imgadmin.getImage().getScaledInstance(botonIngresar.getWidth(), botonIngresar.getHeight(), Image.SCALE_DEFAULT));
         botonIngresar.setRolloverIcon(iconAdmin);
         botonIngresar.setBackground(Color.white);

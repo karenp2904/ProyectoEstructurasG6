@@ -8,8 +8,9 @@ import java.awt.event.ActionListener;
 public class VistaCocina extends JFrame{
     JLabel fondo = new JLabel();
     JLayeredPane contenedor=new JLayeredPane();
-
-    JPanel panelBlanco = new JPanel();
+    JPanel panelCentral=new JPanel();//panel para la pantalla de despacho
+    JPanel panelBlanco = new JPanel();//panel para el registro
+    JPanel panelDespacho=new JPanel();//panel para la impresion de la cola de pedidos
 
     public VistaCocina(){
         this.setTitle("Hot Dogs Palace");
@@ -17,7 +18,7 @@ public class VistaCocina extends JFrame{
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setVisible(true);
         this.setBackground(Color.white);
-       panelRegistro();
+
     }
 
     public void panelRegistro(){
@@ -47,17 +48,13 @@ public class VistaCocina extends JFrame{
         nombreUsuario.setBounds(40,180,200,100);
         panelBlanco.add(nombreUsuario);
 
-        JTextField txusuario=new JTextField();
-        txusuario.setBounds(30,250,300,50);
-        panelBlanco.add(txusuario);
+       String usuario=registroNombreUsuario();
 
         JLabel contraseña=new JLabel("Contraseña");
         contraseña.setBounds(40,290,200,100);
         panelBlanco.add(contraseña);
 
-        JTextField txcontraseña=new JTextField();
-        txcontraseña.setBounds(30,360,300,50);
-        panelBlanco.add(txcontraseña);
+        String contraseñaa=registroContraseñaUsuario();
 
         JButton botonRegistrar=new JButton();
         botonRegistrar.setBounds(140, 420, 100, 50);
@@ -75,6 +72,12 @@ public class VistaCocina extends JFrame{
         botonRegistrar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                panelBlanco.setVisible(false);
+                fondo.setVisible(false);
+                panelCentral.setVisible(true);
+                panelDespachoPedidos();
+
+                contenedor.add(panelCentral,Integer.valueOf(6));
 
 
             }
@@ -83,10 +86,7 @@ public class VistaCocina extends JFrame{
 
         //se llama al contenedor
         contenedor();
-    }
 
-
-    public void contenedor(){
         ImageIcon imagen =new ImageIcon("ModuloCocina/src/Imagenes/loginCocina.png");
         fondo.setIcon(imagen);
         fondo.setSize(imagen.getIconWidth(), imagen.getIconHeight());
@@ -95,10 +95,90 @@ public class VistaCocina extends JFrame{
         contenedor.add(panelBlanco,Integer.valueOf(5));
         contenedor.add(fondo,Integer.valueOf(4));
         //  contenedor.add(panelInicio,Integer.valueOf(2));
+        this.setSize(imagen.getIconWidth(), imagen.getIconHeight());
+    }
+
+    public String registroNombreUsuario(){
+        JTextField txusuario=new JTextField();
+        txusuario.setBounds(30,250,300,50);
+        panelBlanco.add(txusuario);
+        String usuario=txusuario.getText();
+        return usuario;
+    }
+
+    public String registroContraseñaUsuario(){
+        JTextField txcontraseña=new JTextField();
+        txcontraseña.setBounds(30,360,300,50);
+        panelBlanco.add(txcontraseña);
+        String contraseña=txcontraseña.getText();
+        return contraseña;
+    }
+
+    public void panelDespachoPedidos(){
+
+        //panel de color blanco
+        panelCentral.setLayout(null);
+        panelCentral.setVisible(true);
+        panelCentral.setOpaque(true);
+        panelCentral.setBounds(0,0,1400,600);
+        panelCentral.setBackground(Color.white);
+
+        JLabel titulo=new JLabel("PANTALLA DE PEDIDOS");
+        titulo.setBackground(new Color(0,0,0));
+        titulo.setFont(new Font("Arial", Font.BOLD, 40));
+        titulo.setBounds(420,70,600,100);
+        panelCentral.add(titulo);
+
+        //Probandoooo
+        String[] array= new String[400];
+        array[0]="perro caliente";
+        array[1]="perro caliente";
+        array[2]="perro caliente";
+        editarColaDeDespacho(array);
+
+        panelDespacho.setLayout(null);
+        panelDespacho.setVisible(true);
+        panelDespacho.setOpaque(true);
+        panelDespacho.setBounds(350,200,600,400);
+        panelDespacho.setBackground(new Color(217, 217, 217));
+
+        JLabel fondoLetras=new JLabel();
+        ImageIcon imagen =new ImageIcon("ModuloCocina/src/Imagenes/fondoLetras.png");
+        fondoLetras.setIcon(imagen);
+        fondoLetras.setSize(imagen.getIconWidth(), imagen.getIconHeight());
+        this.setSize(imagen.getIconWidth(), imagen.getIconHeight());
+
+        contenedor.add(fondoLetras,Integer.valueOf(6));
+        contenedor.add(titulo,Integer.valueOf(7));
+        contenedor.add(panelDespacho,Integer.valueOf(7));
+
+        contenedor();
+    }
+
+    public void editarColaDeDespacho(String[] pedidosEnOrden){
+        int y=50;
+        for (int i = 0; i <pedidosEnOrden.length ; i++) {
+            JLabel titulo=new JLabel(pedidosEnOrden[i]);
+            titulo.setBackground(Color.black);
+            titulo.setFont(new Font("Arial", Font.BOLD, 20));
+            titulo.setBounds(150,y,600,100);
+            panelDespacho.add(titulo);
+            y+=50;//se le agrega distancia a y para la ubicacion del texto
+            //otorga espacios
+            JLabel espacio=new JLabel();
+            espacio.setBackground(Color.white);
+            espacio.setFont(new Font("Arial", Font.BOLD, 20));
+            espacio.setBounds(100,y+10,600,100);
+            panelDespacho.add(espacio);
+        }
+    }
+
+
+    public void contenedor(){
 
         this.getContentPane().add(contenedor);
         this.setSize(getMaximumSize());
-        this.setSize(imagen.getIconWidth(), imagen.getIconHeight());
+
         this.setExtendedState(MAXIMIZED_BOTH);
         this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     }
