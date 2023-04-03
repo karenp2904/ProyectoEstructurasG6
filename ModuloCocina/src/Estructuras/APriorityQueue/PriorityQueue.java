@@ -4,7 +4,7 @@ import Estructuras.DinamicQueue.Queue;
 
 public class PriorityQueue {
 	//
-	
+	//
 	Queue arrayQueue[];//array de prioridad
 	final int numeroPrioridad;//numero de prioridades establecedido
 	
