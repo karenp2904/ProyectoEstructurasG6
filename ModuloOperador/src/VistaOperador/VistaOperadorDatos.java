@@ -305,6 +305,7 @@ public class VistaOperadorDatos extends JFrame {
         panelCentral.add(txIngresarCantidad);
         return Cantidad;
     }
+    //
     public void editarPedidosFrecuentes(String[] pedidos){
         int y=50;
         for (int i = 0; i <pedidos.length ; i++) {
