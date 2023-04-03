@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae27cf3b-5fc8-4a93-9aba-7e39e00c2c02" name="Changes" comment="Actualizacion">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Estructuras/APriorityQueue/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/VistaCocina/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/VistaCocina/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/VistaCocina/VistaAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/VistaCocina/VistaAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/VistaCocina/VistaAdminDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/VistaCocina/VistaAdminDatos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/VistaCocina/VistaCocina.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/VistaCocina/VistaCocina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperadorDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperadorDatos.java" afterDir="false" />
-    </list>
+    <list default="true" id="ae27cf3b-5fc8-4a93-9aba-7e39e00c2c02" name="Changes" comment="Vista del operador- Ingreso de pedidos" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680319817611</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Vista del operador- Ingreso de pedidos">
+      <created>1680495285530</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680495285530</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -184,15 +180,16 @@
     <MESSAGE value="Modulo Operador- Ventana registro y actulizacion de datos" />
     <MESSAGE value="Organizacion de poryectos MVC" />
     <MESSAGE value="Actualizacion de paquetes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion de paquetes" />
+    <MESSAGE value="Vista del operador- Ingreso de pedidos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vista del operador- Ingreso de pedidos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperador.java</url>
-          <line>348</line>
-          <properties class="VistaOperador.VistaOperador" method="setDireccionCliente">
+          <line>347</line>
+          <properties class="VistaOperador.VistaOperador">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
