@@ -130,11 +130,11 @@ public class VistaCocina extends JFrame{
         panelCentral.add(titulo);
 
         //Probandoooo
-        String[] array= new String[400];
-        array[0]="perro caliente";
-        array[1]="perro caliente";
-        array[2]="perro caliente";
-        editarColaDeDespacho(array);
+        String prueba;
+        prueba="perro caliente";
+        prueba="perro caliente";
+        prueba="perro caliente";
+        editarColaDeDespacho(prueba);
 
         panelDespacho.setLayout(null);
         panelDespacho.setVisible(true);
@@ -154,11 +154,9 @@ public class VistaCocina extends JFrame{
 
         contenedor();
     }
-
-    public void editarColaDeDespacho(String[] pedidosEnOrden){
-        int y=50;
-        for (int i = 0; i <pedidosEnOrden.length ; i++) {
-            JLabel titulo=new JLabel(pedidosEnOrden[i]);
+    int y=50;
+    public void editarColaDeDespacho(String pedidosEnOrden){
+            JLabel titulo=new JLabel(pedidosEnOrden);
             titulo.setBackground(Color.black);
             titulo.setFont(new Font("Arial", Font.BOLD, 20));
             titulo.setBounds(150,y,600,100);
@@ -170,7 +168,7 @@ public class VistaCocina extends JFrame{
             espacio.setFont(new Font("Arial", Font.BOLD, 20));
             espacio.setBounds(100,y+10,600,100);
             panelDespacho.add(espacio);
-        }
+
     }
 
 

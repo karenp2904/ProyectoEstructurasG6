@@ -200,7 +200,7 @@ public class VistaOperadorDatos extends JFrame {
         productoText.setBounds(370, 190, 200, 100);
         panelCentral.add(productoText);
 
-        JLabel tamañoText = new JLabel("TAMAÑO: ");
+        JLabel tamañoText = new JLabel("CÓDIGO: ");
         tamañoText.setBackground(Color.black);
         tamañoText.setFont(new Font("Arial", Font.BOLD, 20));
         tamañoText.setBounds(370, 260, 200, 100);
@@ -441,7 +441,7 @@ public class VistaOperadorDatos extends JFrame {
         logo.setIcon(logo1);
 
         //letrero del registro de clinetes en el panel
-        JLabel letreroIngreso = new JLabel("INGRESAR PEDIDO");
+        JLabel letreroIngreso = new JLabel("ACTUALIZAR PEDIDO");
         letreroIngreso.setBackground(Color.black);
         letreroIngreso.setFont(new Font("Arial", Font.BOLD, 40));
         letreroIngreso.setBounds(500, 150, 600, 200);
@@ -457,7 +457,7 @@ public class VistaOperadorDatos extends JFrame {
         productoText.setBounds(370, 190, 200, 100);
         panelCentral.add(productoText);
 
-        JLabel tamañoText = new JLabel("TAMAÑO: ");
+        JLabel tamañoText = new JLabel("CÓDIGO: ");
         tamañoText.setBackground(Color.black);
         tamañoText.setFont(new Font("Arial", Font.BOLD, 20));
         tamañoText.setBounds(370, 260, 200, 100);

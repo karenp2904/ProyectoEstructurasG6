@@ -60,6 +60,9 @@ public class VistaPrincipalRepartidor extends JFrame {
         botonIniciar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                VistaRepartidor vista=new VistaRepartidor();
+                vista.panelRegistro();
+                dispose();
 
             }
         });
@@ -93,8 +96,9 @@ public class VistaPrincipalRepartidor extends JFrame {
     }
 
 
+
     public void panelContenedor(){
-        ImageIcon imagen =(new ImageIcon("ModuloRepartidor/src/Logo.jpeg"));
+        ImageIcon imagen =(new ImageIcon("ModuloRepartidor/src/Imagenes/Logo.jpeg"));
         fondo.setIcon(imagen);
         fondo.setSize(imagen.getIconWidth(), imagen.getIconHeight());
         fondo.setBounds(100,40,1400,600);
