@@ -25,7 +25,7 @@ public class VistaOperador extends JFrame {
     se muestran datos de nombre- telefono -tipo de cliente- direccion y pedidos frecuentes
 
      */
-
+//
     JLabel fondo = new JLabel();//fondo
     JLayeredPane contenedor=new JLayeredPane();//contenedor de capas en la ventana
     JPanel panelInicio = new JPanel();
