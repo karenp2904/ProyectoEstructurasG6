@@ -6,6 +6,10 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class VistaOperadorDatos extends JFrame {
+
+    /*
+    Datos de registro de cliente y actulizacion, ingreso y actulizacion del pedido
+     */
     JPanel panelCentral =new JPanel();
     JPanel panelFrecuentes=new JPanel();
     JPanel panelCompletar=new JPanel();
@@ -109,16 +113,18 @@ public class VistaOperadorDatos extends JFrame {
 
     }
 
+    //metodo para obtener el nombre el cliente
     public String ingresarNombre(){
         JTextField txusuario = new JTextField();
         txusuario.setBackground(Color.white);
         txusuario.setFont(new Font("Arial", Font.BOLD, 20));
         txusuario.setBounds(640, 150, 220, 40);
         panelCentral.add(txusuario);
-        String usuario=txusuario.getText();
-        return usuario;
+        String usuario=txusuario.getText();// se obtiene el usuario
+        return usuario;// se retorna
     }
 
+    //metodo para obtener el telefono el cliente
     public String ingresarTelefono(){
         JTextField txTelefono = new JTextField();
         txTelefono.setBackground(Color.white);
@@ -126,10 +132,11 @@ public class VistaOperadorDatos extends JFrame {
         txTelefono.setFont(new Font("Arial", Font.BOLD, 20));
         txTelefono.setBounds(640, 200, 220, 40);
         panelCentral.add(txTelefono);
-        String telefono=txTelefono.getText();
-        return telefono;
+        String telefono=txTelefono.getText();// se obtiene el telefonor
+        return telefono;// se retorna
     }
 
+    //metodo para obtener la direccion el cliente
     public String ingresarDireccion(){
         JTextField txDireccion = new JTextField();
         txDireccion.setBackground(Color.white);
@@ -140,6 +147,7 @@ public class VistaOperadorDatos extends JFrame {
         return direccion;
     }
 
+    //metodo para obtener el tipo de cliente el cliente
     public String ingresarTipoCliente(){
         JTextField txCliente = new JTextField();
         txCliente.setBackground(Color.white);
@@ -192,7 +200,7 @@ public class VistaOperadorDatos extends JFrame {
         String buscar=buscarPedido();
         String producto=ingresarProducto();
         String cantidad=ingresarCantidad();
-        String tamaño=ingresarTamaño();
+        String tamaño= ingresarCodido();
 
         JLabel productoText = new JLabel("PRODUCTO: ");
         productoText.setBackground(Color.black);
@@ -267,6 +275,7 @@ public class VistaOperadorDatos extends JFrame {
         contenedor.add(panelCompletar,Integer.valueOf(4));
     }
 
+    //metodo para buscar pedido- autocompletar
     public String buscarPedido(){
         Color colorPanel=new Color(234,234,234);
         txbuscarPedido.setBackground(colorPanel);
@@ -277,6 +286,7 @@ public class VistaOperadorDatos extends JFrame {
         return nombrePedido;
     }
 
+    //metodo para ingresar producto del pedido
     public String ingresarProducto(){
         Color colorPanel=new Color(234,234,234);
         txIngresarProducto.setBackground(colorPanel);
@@ -287,7 +297,8 @@ public class VistaOperadorDatos extends JFrame {
         return producto;
     }
 
-    public String ingresarTamaño(){
+    //metodo para ingresar codigo del producto del pedido
+    public String ingresarCodido(){
         Color colorPanel=new Color(234,234,234);
         txIngresarTamaño.setBackground(colorPanel);
         txIngresarTamaño.setFont(new Font("Arial", Font.BOLD, 20));
@@ -296,6 +307,8 @@ public class VistaOperadorDatos extends JFrame {
         panelCentral.add(txIngresarTamaño);
         return tamaño;
     }
+
+    //metodo para ingresar cantidad del producto del pedido
     public String ingresarCantidad(){
         Color colorPanel=new Color(234,234,234);
         txIngresarCantidad.setBackground(colorPanel);
@@ -305,7 +318,8 @@ public class VistaOperadorDatos extends JFrame {
         panelCentral.add(txIngresarCantidad);
         return Cantidad;
     }
-    //
+
+    //metodo para editar los mas pedidos del restaurante
     public void editarPedidosFrecuentes(String[] pedidos){
         int y=50;
         for (int i = 0; i <pedidos.length ; i++) {
@@ -325,6 +339,7 @@ public class VistaOperadorDatos extends JFrame {
     }
 
 
+    //panel para actualizar los datos del cliente
     public void panelActualizarDatos(){
         panelCentral.setLayout(null);
         panelCentral.setVisible(true);
@@ -407,6 +422,7 @@ public class VistaOperadorDatos extends JFrame {
 
     }
 
+    //panel para actualizar el pedido
     public void panelActualizarPedido(){
         panelCentral.setLayout(null);
         panelCentral.setVisible(true);
@@ -449,7 +465,7 @@ public class VistaOperadorDatos extends JFrame {
         String buscar=buscarPedido();
         String producto=ingresarProducto();
         String cantidad=ingresarCantidad();
-        String tamaño=ingresarTamaño();
+        String tamaño= ingresarCodido();
 
         JLabel productoText = new JLabel("PRODUCTO: ");
         productoText.setBackground(Color.black);
@@ -525,6 +541,7 @@ public class VistaOperadorDatos extends JFrame {
     }
 
 
+    //metodo para el contendor
     public void contenedor(){
         ImageIcon imagen =new ImageIcon("ModuloOperador/src/Imagenes/fondoLetras.png");
         fondo.setIcon(imagen);

@@ -18,9 +18,16 @@ import javax.swing.JTextField;
 import javax.swing.WindowConstants;
 
 public class VistaOperador extends JFrame {
+    /*
+    En esta ventana estara el menu de  busqueda
+    Se encuentra el login del operador con usuario y contraseña
+    Se reclama el numero del cliente y se muestran los datos del mismo
+    se muestran datos de nombre- telefono -tipo de cliente- direccion y pedidos frecuentes
 
-    JLabel fondo = new JLabel();
-    JLayeredPane contenedor=new JLayeredPane();
+     */
+
+    JLabel fondo = new JLabel();//fondo
+    JLayeredPane contenedor=new JLayeredPane();//contenedor de capas en la ventana
     JPanel panelInicio = new JPanel();
     JPanel panelBlanco = new JPanel();
     JPanel panelPedido = new JPanel();
@@ -28,6 +35,7 @@ public class VistaOperador extends JFrame {
     JTextField txbuscarCliente =new JTextField();
     JButton botonBuscar;
 
+    //Constructor de la ventana con las propiedades de la misma
     public VistaOperador(){
         this.setTitle("Hot Dogs Palace");
         this.setExtendedState(MAXIMIZED_BOTH);
@@ -36,6 +44,7 @@ public class VistaOperador extends JFrame {
         this.setBackground(Color.white);
     }
 
+    //panel para el login del operador. usuario y contraseña
     public void panelLogin() {
         //Panel que tendrá las etiquetas y botones
         panelInicio.setLayout(null);
@@ -64,8 +73,8 @@ public class VistaOperador extends JFrame {
         nombreUsuario.setBackground(Color.black);
         nombreUsuario.setBounds(40, 180, 200, 100);
         panelInicio.add(nombreUsuario);
-        //Aqui se llama al metodo
-        String usuario=verificarUsuario();
+        //Aqui se llama al metodo//TEMPORAL
+        String usuario=validarUsuario();
 
         //contraseña del usuario en el login
         JLabel contraseña = new JLabel("Contraseña");
@@ -73,9 +82,9 @@ public class VistaOperador extends JFrame {
         contraseña.setBounds(40, 290, 200, 100);
         panelInicio.add(contraseña);
         //Aqui se llama al metodo
-        String contraseñaa=verificarContraseña();
+        String contraseñaa= validarContraseña();
 
-        //boton que da acceso al modulo en el login
+        //boton que da acceso al modulo en el login//TEMPORAL
         JButton botonLogin=new JButton();
         botonLogin.setBounds(140, 420, 100, 50);
         ImageIcon imgR= new ImageIcon("ModuloOperador/src/Imagenes/INGRESAR.png");// se le pone icono a boton
@@ -118,30 +127,29 @@ public class VistaOperador extends JFrame {
 
     }
 
-    public String verificarUsuario(){
-        JTextField txusuario = new JTextField();
-        txusuario.setBackground(Color.white);
-        txusuario.setBounds(30, 250, 300, 40);
-        panelInicio.add(txusuario);
-        String usuario=txusuario.getText();
+    //metodo para verificar usuario ingresada por el operador
+    public String validarUsuario(){
+        JTextField txusuario = new JTextField();//caja de texto
+        txusuario.setBackground(Color.white);//color
+        txusuario.setBounds(30, 250, 300, 40);//ubicacion y tamaño
+        panelInicio.add(txusuario);//se añade al panel
+        String usuario=txusuario.getText();//SE TOMA EL VALOR QUE SE DIGITA
         return usuario;
     }
 
-    public String verificarContraseña(){
-        JTextField txcontraseña = new JTextField();
-        txcontraseña.setBackground(Color.white);
-        txcontraseña.setBounds(30,360,300,40);
-        panelInicio.add(txcontraseña);
-        String contraseña=txcontraseña.getText();
+    //metodo para verificar contraseña ingresada por el operador
+    public String validarContraseña(){
+        JTextField txcontraseña = new JTextField();//caja de texto
+        txcontraseña.setBackground(Color.white);//color
+        txcontraseña.setBounds(30,360,300,40);//ubicacion y tamaño
+        panelInicio.add(txcontraseña);//se añade al panel
+        String contraseña=txcontraseña.getText();//SE TOMA EL VALOR QUE SE DIGITA
         return contraseña;
     }
 
 
-
     //panel donde se busca al cliente
     public void panelOperador(){
-
-
         //Panel que tendrá las etiquetas y botones
         //fondo blanco del panel
         panelBlanco.setLayout(null);
@@ -309,14 +317,27 @@ public class VistaOperador extends JFrame {
     }
 
     //metodo en donde se da la informacion del cliente
-    public void informacionCliente(){
+    public void informacionCliente(){ //metodo temporal
         setNombreCliente("Maria Perez");
         setTelefonoCliente("3157660279");
         setDireccionCliente("calle 21 d # 26");
         setTipoCliente("Premium");
     }
 
+    //metodo para busqueda de cliente por telefono del mismo
+    public String buscarCliente(){
+        Color colorPanel=new Color(234,234,234);
+        txbuscarCliente.setBackground(colorPanel);
+        txbuscarCliente.setFont(new Font("Arial", Font.BOLD, 40));
+        txbuscarCliente.setBounds(300, 50, 700, 60);
+        String telefonoCliente= txbuscarCliente.getText();//se obtiene el telefono
+        panelBlanco.add(txbuscarCliente);
+        return telefonoCliente;//se retorna el numero telefonico
+    }
+
     //estos metodos debe llamarlos el controlador
+
+    //segun la busqueda editar el nombre del cliente
     public void setNombreCliente(String name){
         JLabel nombreEstatico = new JLabel("Nombre: ");
         nombreEstatico.setBackground(Color.black);
@@ -331,6 +352,7 @@ public class VistaOperador extends JFrame {
         panelInformacion.add(nombreUsuario);
     }
 
+    //segun la busqueda editar el telefono del cliente
     public void setTelefonoCliente(String telefono){
         JLabel telefonoEstatico = new JLabel("Telefono: ");// letra estatica
         telefonoEstatico.setBackground(Color.black);
@@ -345,6 +367,7 @@ public class VistaOperador extends JFrame {
         panelInformacion.add(numtelefono);
     }
 
+    //segun la busqueda editar el direccion del cliente
     public void setDireccionCliente(String direccion){
 
         JLabel direccionFija = new JLabel("Direccion: ");// letra estatica
@@ -360,6 +383,7 @@ public class VistaOperador extends JFrame {
         panelInformacion.add(direccionCliente);
     }
 
+    //segun la busqueda editar el tipo del cliente
     public void setTipoCliente(String tipo){
 
         JLabel tipoEstatico = new JLabel("Tipo Cliente: ");// letra estatica
@@ -376,27 +400,10 @@ public class VistaOperador extends JFrame {
     }
 
 
-
-    public String buscarCliente(){
-        Color colorPanel=new Color(234,234,234);
-        txbuscarCliente.setBackground(colorPanel);
-        txbuscarCliente.setFont(new Font("Arial", Font.BOLD, 40));
-        txbuscarCliente.setBounds(300, 50, 700, 60);
-        String telefonoCliente= txbuscarCliente.getText();
-        panelBlanco.add(txbuscarCliente);
-        return telefonoCliente;
-    }
-
+    //metodo para editan los pedidos frecuentes del cliente
     public void setPedidosCliente(String[] pedidosFrecuentes){
-
-        int y=50;
-        for (int i = 0; i <pedidosFrecuentes.length ; i++) {
-            JLabel indice=new JLabel(String.valueOf(i+1));
-            indice.setBackground(Color.black);
-            indice.setFont(new Font("Arial", Font.BOLD, 20));
-            indice.setBounds(30,y,600,100);
-            panelPedido.add(indice);
-
+        int y=50;//se define la altura
+        for (int i = 0; i < pedidosFrecuentes.length ; i++) {
             JLabel titulo=new JLabel(pedidosFrecuentes[i]);
             titulo.setBackground(Color.black);
             titulo.setFont(new Font("Arial", Font.BOLD, 20));
@@ -412,8 +419,7 @@ public class VistaOperador extends JFrame {
         }
     }
 
-
-
+    //contenedor de capas
     public void contenedor(){
         //  contenedor.add(panelInicio,Integer.valueOf(2));
 

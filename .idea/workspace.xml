@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae27cf3b-5fc8-4a93-9aba-7e39e00c2c02" name="Changes" comment="Vista del operador- Ingreso de pedidos">
+    <list default="true" id="ae27cf3b-5fc8-4a93-9aba-7e39e00c2c02" name="Changes" comment="Vista repartidor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/VistaCocina/VistaCocina.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/VistaCocina/VistaCocina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperadorDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperadorDatos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloRepartidor/src/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloRepartidor/src/VistaRepartidor/VistaPrincipalRepartidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloRepartidor/src/VistaRepartidor/VistaPrincipalRepartidor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaPrincipalOpera.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaPrincipalOpera.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ModuloRepartidor/src/VistaRepartidor/VistaRepartidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloRepartidor/src/VistaRepartidor/VistaRepartidor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +77,7 @@
       <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloCocina\src\VistaCocina" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainRepartidor">
+  <component name="RunManager" selected="Application.MainOperador">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="VistaCocina.Main" />
       <module name="ModuloCocina" />
@@ -120,8 +119,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainRepartidor" />
         <item itemvalue="Application.MainOperador" />
+        <item itemvalue="Application.MainRepartidor" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -227,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680495646387</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Vista repartidor">
+      <created>1680583134665</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680583134666</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -238,28 +244,35 @@
     <MESSAGE value="Organizacion de poryectos MVC" />
     <MESSAGE value="Actualizacion de paquetes" />
     <MESSAGE value="Vista del operador- Ingreso de pedidos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vista del operador- Ingreso de pedidos" />
+    <MESSAGE value="Vista repartidor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vista repartidor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperador.java</url>
-          <line>347</line>
-          <properties class="VistaOperador.VistaOperador" method="setDireccionCliente">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
+          <line>356</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperador.java</url>
+          <line>372</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperadorDatos.java</url>
+          <line>161</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperadorDatos.java</url>
-          <line>111</line>
-          <properties class="VistaOperador.VistaOperadorDatos" method="ingresarNombre">
+          <url>file://$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaPrincipalOpera.java</url>
+          <line>31</line>
+          <properties class="VistaOperador.VistaPrincipalOpera" method="panelInicio">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

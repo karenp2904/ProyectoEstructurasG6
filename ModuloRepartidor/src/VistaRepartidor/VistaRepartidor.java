@@ -14,6 +14,7 @@ public class VistaRepartidor extends JFrame {
     JPanel panelPedidos=new JPanel();
     JPanel panelRuta=new JPanel();
     Icon  iconoEntregado,iconoEncamino,iconoesperando;
+    int contador=1;
     public VistaRepartidor(){
         this.setTitle("Hot Dogs Palace");
         this.setExtendedState(MAXIMIZED_BOTH);
@@ -172,41 +173,7 @@ public class VistaRepartidor extends JFrame {
 
     int yBotones=30;
     public void añadirBotones(){
-/*
-        JToggleButton boton=new JToggleButton();
-        boton.setBounds(400, yBotones, 150, 60);
-        boton.setBackground(Color.white);
-
-        ImageIcon imgenEsperando= new ImageIcon("ModuloRepartidor/src/Imagenes/esperando.png");// se le pone icono a boton
-        iconoesperando= new ImageIcon(imgenEsperando.getImage().getScaledInstance(boton.getWidth(), boton.getHeight(), Image.SCALE_DEFAULT));
-
-        ImageIcon imEncamino= new ImageIcon("ModuloRepartidor/src/Imagenes/encamino.png");// se le pone icono a boton
-        iconoEncamino= new ImageIcon(imEncamino.getImage().getScaledInstance(boton.getWidth(), boton.getHeight(), Image.SCALE_DEFAULT));
-
-        ImageIcon imgEntregado= new ImageIcon("ModuloRepartidor/src/Imagenes/encamino.png");// se le pone icono a boton
-        iconoEntregado = new ImageIcon(imgEntregado.getImage().getScaledInstance(boton.getWidth(), boton.getHeight(), Image.SCALE_DEFAULT));
-
-        boton=new JToggleButton(imgenEsperando,true);
-        JToggleButton finalBoton = boton;
-        boton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                finalBoton.setIcon(imEncamino);
-            }
-        });
-
-        JToggleButton otro = boton;
-        boton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                finalBoton.setIcon(imgEntregado);
-            }
-        });
-
-        panelPedidos.add(boton);
-
- */
-        /*
+        contador=1;
         JButton botonEstado=new JButton(); //boton para ingresar pedido
         botonEstado.setBounds(400, yBotones, 150, 60);
         botonEstado.setBackground(Color.white);
@@ -227,21 +194,23 @@ public class VistaRepartidor extends JFrame {
         //cuando el boton dice entregado
         ImageIcon imgEntregado= new ImageIcon("ModuloRepartidor/src/Imagenes/encamino.png");// se le pone icono a boton
         iconoEntregado = new ImageIcon(imgEntregado.getImage().getScaledInstance(botonEstado.getWidth(), botonEstado.getHeight(), Image.SCALE_DEFAULT));
+
+
         botonEstado.addActionListener(new ActionListener() {
-            @Override
             public void actionPerformed(ActionEvent e) {
-                botonEstado.setIcon(imEncamino);
+                contador++;
+              if (contador == 2) {
+                    botonEstado.setIcon(imEncamino);
+              } else if (contador == 3) {
+                    botonEstado.setIcon(imgEntregado);
+                }
             }
         });
-        botonEstado.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                botonEstado.setIcon(imgEntregado);
-            }
-        });
+
+
         panelPedidos.add(botonEstado);
-        *
-         */
+
+
     }
 
     public void contenedor(){
