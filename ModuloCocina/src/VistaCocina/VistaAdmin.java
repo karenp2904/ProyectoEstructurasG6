@@ -210,7 +210,7 @@ public class VistaAdmin extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 VistaCocina vista=new VistaCocina();
-                vista.panelRegistro();
+                vista.panelDespachoPedidos();
                 System.out.println("Service on");
                 dispose();
 

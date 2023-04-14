@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae27cf3b-5fc8-4a93-9aba-7e39e00c2c02" name="Changes" comment="Vista repartidor">
+    <list default="true" id="ae27cf3b-5fc8-4a93-9aba-7e39e00c2c02" name="Changes" comment="Vista operador comentada">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperadorDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperadorDatos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaPrincipalOpera.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaPrincipalOpera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloRepartidor/src/VistaRepartidor/VistaRepartidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloRepartidor/src/VistaRepartidor/VistaRepartidor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/VistaCocina/VistaAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/VistaCocina/VistaAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/VistaCocina/VistaAdminDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/VistaCocina/VistaAdminDatos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/VistaCocina/VistaCocina.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/VistaCocina/VistaCocina.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +23,7 @@
     </option>
   </component>
   <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="Karen" />
+    <option name="BRANCH" value="main" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -77,7 +76,7 @@
       <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloCocina\src\VistaCocina" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainOperador">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="VistaCocina.Main" />
       <module name="ModuloCocina" />
@@ -119,10 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainOperador" />
         <item itemvalue="Application.MainRepartidor" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainOperador" />
+        <item itemvalue="Application.MainRepartidor" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +233,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680583134666</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Vista operador comentada">
+      <created>1680658119812</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1680658119812</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Vista operador comentada">
+      <created>1681512981039</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1681512981039</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -245,21 +259,12 @@
     <MESSAGE value="Actualizacion de paquetes" />
     <MESSAGE value="Vista del operador- Ingreso de pedidos" />
     <MESSAGE value="Vista repartidor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vista repartidor" />
+    <MESSAGE value="Vista operador comentada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vista operador comentada" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperador.java</url>
-          <line>356</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperador.java</url>
-          <line>372</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperadorDatos.java</url>
           <line>161</line>
@@ -273,6 +278,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/ModuloCocina/src/VistaCocina/VistaAdminDatos.java</url>
+          <line>131</line>
+          <properties class="VistaCocina.VistaAdminDatos" method="ingresarOperador">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

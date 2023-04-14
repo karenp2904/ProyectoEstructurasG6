@@ -17,6 +17,7 @@ public class VistaAdminDatos extends JFrame {
         this.setBackground(Color.white);
         contenedor();
     }
+
     public void ingresarRepartidor(){
         panelCentral.setLayout(null);
         panelCentral.setVisible(true);
