@@ -20,7 +20,7 @@ public class VistaCocina extends JFrame{
         this.setBackground(Color.white);
 
     }
-
+/*
     public void panelRegistro(){
         //Panel que tendrá las etiquetas y botones
         panelBlanco.setLayout(null);
@@ -97,7 +97,7 @@ public class VistaCocina extends JFrame{
         //  contenedor.add(panelInicio,Integer.valueOf(2));
         this.setSize(imagen.getIconWidth(), imagen.getIconHeight());
     }
-
+*/
     public String registroNombreUsuario(){
         JTextField txusuario=new JTextField();
         txusuario.setBounds(30,250,300,50);
