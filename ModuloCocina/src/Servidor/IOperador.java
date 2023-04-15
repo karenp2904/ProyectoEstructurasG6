@@ -15,7 +15,7 @@ public interface IOperador extends Remote {
     ColasArray[] pedidosFrecuentesCliente(String telefono);//pedidos mas solicitados por el cliente
     String busquedaPedido(String pedidoABuscar); //busqueda de pedido
     String busquedaCliente(String clienteTelefonoABuscar); //busqueda de cliente
-    String generarFactura();
+    Factura generarFactura();
 
 
 

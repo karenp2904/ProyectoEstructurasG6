@@ -53,7 +53,7 @@ public class ServicioOperador extends UnicastRemoteObject implements IOperador{
     }
 
     @Override
-    public String generarFactura() {
+    public Factura generarFactura() {
         return null;
     }
 }
