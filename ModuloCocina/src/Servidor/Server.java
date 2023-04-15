@@ -18,12 +18,12 @@ public class Server {
         this.url = "//" + ip + ":" + port + "/" + serviceName;
     }
 
-    public boolean deployService() {
+    public boolean deployServiceRegistro() {
         boolean ack = false;
         if (ip == null | port == null | serviceName == null) return ack;
         try {
             System.setProperty( "java.rmi.server.hostname", ip);
-            IRegistro service = new Service();
+            IRegistro service = new ServiceRegistro();
             LocateRegistry.createRegistry(Integer.parseInt(port));
             Naming.rebind(url, service);
             ack = true;

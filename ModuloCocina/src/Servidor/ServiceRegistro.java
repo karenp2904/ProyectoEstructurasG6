@@ -3,8 +3,10 @@ package Servidor;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
-public class Service extends UnicastRemoteObject implements IRegistro{
-    protected Service() throws RemoteException {
+public class ServiceRegistro extends UnicastRemoteObject implements IRegistro{
+    private static final long serialVersionUID = 1L;
+
+    protected ServiceRegistro() throws RemoteException {
     }
 
     @Override
