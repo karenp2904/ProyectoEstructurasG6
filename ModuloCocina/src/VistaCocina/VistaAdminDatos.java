@@ -49,13 +49,13 @@ public class VistaAdminDatos extends JFrame {
         nombretext.setBounds(480, 170, 200, 100);
         panelCentral.add(nombretext);
         //Label del numero telefonico
-        JLabel telefonoText = new JLabel("CÓDIGO: ");
+        JLabel telefonoText = new JLabel("USUARIO: ");
         telefonoText.setBackground(Color.black);
         telefonoText.setFont(new Font("Arial", Font.BOLD, 20));
         telefonoText.setBounds(480, 220, 200, 100);
         panelCentral.add(telefonoText);
 
-        JLabel direccionText = new JLabel("DIRECCIÓN: ");
+        JLabel direccionText = new JLabel("CONTRASEÑA: ");
         direccionText.setBackground(Color.black);
         direccionText.setFont(new Font("Arial", Font.BOLD, 20));
         direccionText.setBounds(480, 270, 200, 100);
@@ -64,8 +64,8 @@ public class VistaAdminDatos extends JFrame {
 
 
         String nombre=ingresarNombre();
-        String codigo= ingresarCodigo();
-        String direccion=ingresarDireccion();
+        String codigo= ingresarUsuario();
+        String direccion= ingresarContraseña();
 
 
         JButton botonIngresar=new JButton(); //boton para ingresar pedido
@@ -106,7 +106,7 @@ public class VistaAdminDatos extends JFrame {
         return usuario;
     }
 
-    public String ingresarCodigo(){
+    public String ingresarUsuario(){
         JTextField txtCodigo = new JTextField();
         txtCodigo.setBackground(Color.white);
         // txTelefono.setBackground(new Color(217,217,217));
@@ -117,7 +117,7 @@ public class VistaAdminDatos extends JFrame {
         return codigo;
     }
 
-    public String ingresarDireccion(){
+    public String ingresarContraseña(){
         JTextField txDireccion = new JTextField();
         txDireccion.setBackground(Color.white);
         txDireccion.setFont(new Font("Arial", Font.BOLD, 20));
@@ -160,13 +160,13 @@ public class VistaAdminDatos extends JFrame {
         nombretext.setBounds(480, 170, 200, 100);
         panelCentral.add(nombretext);
         //Label del numero telefonico
-        JLabel telefonoText = new JLabel("CÓDIGO: ");
+        JLabel telefonoText = new JLabel("USUARIO: ");
         telefonoText.setBackground(Color.black);
         telefonoText.setFont(new Font("Arial", Font.BOLD, 20));
         telefonoText.setBounds(480, 220, 200, 100);
         panelCentral.add(telefonoText);
 
-        JLabel direccionText = new JLabel("DIRECCIÓN: ");
+        JLabel direccionText = new JLabel("CONTRASEÑA: ");
         direccionText.setBackground(Color.black);
         direccionText.setFont(new Font("Arial", Font.BOLD, 20));
         direccionText.setBounds(480, 270, 200, 100);
@@ -174,8 +174,8 @@ public class VistaAdminDatos extends JFrame {
 
 
         String nombre=ingresarNombre();
-        String codigo= ingresarCodigo();
-        String direccion=ingresarDireccion();
+        String usuario= ingresarUsuario();
+        String contra= ingresarContraseña();
 
 
         JButton botonIngresar=new JButton(); //boton para ingresar pedido

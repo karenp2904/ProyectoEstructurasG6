@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae27cf3b-5fc8-4a93-9aba-7e39e00c2c02" name="Changes" comment="RMI interfaces">
-      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Usuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Estructuras/APriorityQueue/PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Estructuras/APriorityQueue/PriorityQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Estructuras/APriorityQueue/QueueInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Estructuras/APriorityQueue/QueueInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Estructuras/DinamicQueue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Estructuras/DinamicQueue/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Estructuras/DinamicQueue/QueueInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Estructuras/DinamicQueue/QueueInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/IAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/IAdmin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/IOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/IOperador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/IRegistro.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/IRegistro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/ServicioOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/ServicioOperador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -284,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681527182195</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="RMI interfaces">
+      <created>1681531598992</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1681531598993</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
