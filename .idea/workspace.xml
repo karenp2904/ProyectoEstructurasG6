@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae27cf3b-5fc8-4a93-9aba-7e39e00c2c02" name="Changes" comment="Vista operador comentada">
+    <list default="true" id="ae27cf3b-5fc8-4a93-9aba-7e39e00c2c02" name="Changes" comment="Vista conexion operador">
+      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/IOperador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/IRegistro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/VistaCocina/VistaAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/VistaCocina/VistaAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/VistaCocina/VistaAdminDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/VistaCocina/VistaAdminDatos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/VistaCocina/VistaCocina.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/VistaCocina/VistaCocina.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -247,7 +248,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681512981039</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Vista conexion operador">
+      <created>1681524178633</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1681524178633</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Vista conexion operador">
+      <created>1681524195544</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1681524195544</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -259,8 +274,10 @@
     <MESSAGE value="Actualizacion de paquetes" />
     <MESSAGE value="Vista del operador- Ingreso de pedidos" />
     <MESSAGE value="Vista repartidor" />
+    <MESSAGE value="Actualizacion conexion cocina admin" />
     <MESSAGE value="Vista operador comentada" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vista operador comentada" />
+    <MESSAGE value="Vista conexion operador" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vista conexion operador" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
