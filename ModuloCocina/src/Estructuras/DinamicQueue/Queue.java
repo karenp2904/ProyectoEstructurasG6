@@ -1,9 +1,9 @@
-package Estructuras.DinamicQueue;
+package  Estructuras.DinamicQueue;
 
 import java.util.Iterator;
 
 import Estructuras.ListasEnlaceDoble.LinkedList;
-import Estructuras.ListasEnlaceDoble.LinkedListNode;
+import  Estructuras.ListasEnlaceDoble.LinkedListNode;
 
 public class Queue implements QueueInterface {
 	

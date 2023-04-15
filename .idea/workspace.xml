@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae27cf3b-5fc8-4a93-9aba-7e39e00c2c02" name="Changes" comment="RMI interfaces">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/IAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/IRepartidor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/ServicioOperador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/server.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Usuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Estructuras/APriorityQueue/PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Estructuras/APriorityQueue/PriorityQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Estructuras/APriorityQueue/QueueInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Estructuras/APriorityQueue/QueueInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Estructuras/DinamicQueue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Estructuras/DinamicQueue/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Estructuras/DinamicQueue/QueueInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Estructuras/DinamicQueue/QueueInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/IOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/IOperador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/IRegistro.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/IRegistro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/ServiceRegistro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/karen/IdeaProjects/ProyectoEstructurasG6/ModuloCocina/src/Servidor",
+    "last_opened_file_path": "C:/Users/karen/IdeaProjects/ProyectoEstructurasG6/ModuloCocina/src/Estructuras",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -76,11 +75,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloCocina\src\Estructuras" />
       <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloCocina\src\Servidor" />
       <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloCocina\src" />
       <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloCocina\src\VistaCocina" />
       <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloRepartidor\src" />
-      <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloOperador\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloCocina\src\VistaCocina" />
@@ -278,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681525636604</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="RMI interfaces">
+      <created>1681527182195</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1681527182195</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

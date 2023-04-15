@@ -1,10 +1,12 @@
 package Estructuras.DinamicQueue;
 
+
 public interface QueueInterface {
 	public void clear();
-	public boolean isEmpty();
-	public Object extract();
 	public boolean insert(Object object);
+	public Object extract();
+
+	public boolean isEmpty();
 	public int size();
 	public boolean search(Object object);
 	public void sort();
