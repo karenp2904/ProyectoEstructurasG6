@@ -5,10 +5,10 @@ import Estructuras.APriorityQueue.PriorityQueue;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
-public class ServidorCocina extends UnicastRemoteObject implements ICocina{
+public class ServiceCocina extends UnicastRemoteObject implements ICocina{
 
     private static final long serialVersionUID = 1L;
-    protected ServidorCocina() throws RemoteException {
+    protected ServiceCocina() throws RemoteException {
     }
 
     @Override
