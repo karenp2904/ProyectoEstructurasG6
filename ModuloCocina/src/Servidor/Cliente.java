@@ -53,4 +53,8 @@ public class Cliente {
     public void setTipoCuenta(String tipoCuenta) {
         this.tipoCuenta = tipoCuenta;
     }
+
+    public boolean toJSON() {
+        return false;
+    }
 }
