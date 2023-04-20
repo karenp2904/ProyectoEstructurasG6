@@ -1,4 +1,4 @@
-package Servidor;
+package Servidor.Interfaces;
 
 import Estructuras.APriorityQueue.PriorityQueue;
 

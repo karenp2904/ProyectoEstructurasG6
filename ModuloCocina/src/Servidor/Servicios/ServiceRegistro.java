@@ -1,9 +1,11 @@
-package Servidor;
+package Servidor.Servicios;
+
+import Servidor.Interfaces.IRegistro;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
-public class ServiceRegistro extends UnicastRemoteObject implements IRegistro{
+public class ServiceRegistro extends UnicastRemoteObject implements IRegistro {
     private static final long serialVersionUID = 1L;
 
     protected ServiceRegistro() throws RemoteException {

@@ -1,11 +1,14 @@
-package Servidor;
+package Servidor.Servicios;
 
 import Estructuras.Colas.ColasArray;
+import Servidor.Dominio.Cliente;
+import Servidor.Dominio.Factura;
+import Servidor.Interfaces.IOperador;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
-public class ServiceOperador extends UnicastRemoteObject implements IOperador{
+public class ServiceOperador extends UnicastRemoteObject implements IOperador {
 
     private static final long serialVersionUID = 1L;
     protected ServiceOperador() throws RemoteException {
@@ -48,7 +51,7 @@ public class ServiceOperador extends UnicastRemoteObject implements IOperador{
     }
 
     @Override
-    public String busquedaCliente(String clienteABuscar) {
+    public Cliente busquedaCliente(String clienteABuscar) {
         return null;
     }
 

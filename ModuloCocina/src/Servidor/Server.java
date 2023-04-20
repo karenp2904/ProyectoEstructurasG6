@@ -1,5 +1,8 @@
 package Servidor;
 
+import Servidor.Interfaces.IRegistro;
+import Servidor.Servicios.ServiceRegistro;
+
 import java.net.MalformedURLException;
 import java.rmi.Naming;
 import java.rmi.RemoteException;

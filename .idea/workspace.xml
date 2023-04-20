@@ -5,11 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae27cf3b-5fc8-4a93-9aba-7e39e00c2c02" name="Changes" comment="RMI interfaces">
-      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/ICocina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/ServiceAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/ServiceRepartidor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/ServidorCocina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/ServicioOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/ServicioOperador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Dominio/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Factura.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Dominio/Factura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/IAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/ICocina.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/ICocina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/IOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IOperador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/IRegistro.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IRegistro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/IRepartidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IRepartidor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Dominio/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/ServiceAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/ServiceAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/ServiceCocina.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/ServiceCocina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/ServiceOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/ServiceOperador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/ServiceRegistro.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/ServiceRegistro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/ServiceRepartidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/ServiceRepartidor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Dominio/Usuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +72,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/karen/IdeaProjects/ProyectoEstructurasG6/ModuloRepartidor/src",
-    "project.structure.last.edited": "Project",
+    "last_opened_file_path": "D:/Estructuras/LISTAS",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "MTHome"
@@ -122,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainRepartidor" />
+        <item itemvalue="Application.MainOperador" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainOperador" />
-        <item itemvalue="Application.MainRepartidor" />
-        <item itemvalue="Application.MainOperador" />
-        <item itemvalue="Application.MainRepartidor" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +318,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681533293184</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="RMI interfaces">
+      <created>1681533989310</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1681533989310</updated>
+    </task>
+    <task id="LOCAL-00026" summary="RMI interfaces">
+      <created>1681534119150</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1681534119150</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

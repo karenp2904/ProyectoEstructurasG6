@@ -1,7 +1,7 @@
-package Servidor;
+package Servidor.Interfaces;
 
-import Estructuras.Colas.ColasArray;
 import Estructuras.Colas.ColasList;
+import Servidor.Dominio.Factura;
 
 import java.rmi.Remote;
 

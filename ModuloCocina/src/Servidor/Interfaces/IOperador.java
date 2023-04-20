@@ -1,7 +1,8 @@
-package Servidor;
+package Servidor.Interfaces;
 
 import Estructuras.Colas.ColasArray;
-import Estructuras.DinamicQueue.Queue;
+import Servidor.Dominio.Cliente;
+import Servidor.Dominio.Factura;
 
 import java.rmi.Remote;
 
@@ -14,7 +15,7 @@ public interface IOperador extends Remote {
     ColasArray[] pedidosFrecuentesRestaurante(); //pedidos más vendidos
     ColasArray[] pedidosFrecuentesCliente(String telefono);//pedidos mas solicitados por el cliente
     String busquedaPedido(String pedidoABuscar); //busqueda de pedido
-    String busquedaCliente(String clienteTelefonoABuscar); //busqueda de cliente
+    Cliente busquedaCliente(String clienteTelefonoABuscar); //busqueda de cliente
     Factura generarFactura();
 
 

@@ -1,9 +1,11 @@
-package Servidor;
+package Servidor.Servicios;
+
+import Servidor.Interfaces.IAdmin;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
-public class ServiceAdmin extends UnicastRemoteObject implements IAdmin{
+public class ServiceAdmin extends UnicastRemoteObject implements IAdmin {
 
     private static final long serialVersionUID = 1L;
     protected ServiceAdmin() throws RemoteException {
