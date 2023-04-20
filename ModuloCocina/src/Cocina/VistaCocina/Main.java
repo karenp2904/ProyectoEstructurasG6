@@ -1,4 +1,6 @@
-package VistaCocina;
+package Cocina.VistaCocina;
+
+import Admin.VistaAdmin.VistaPrincipal;
 
 public class Main {
     public static void main(String[] args) {

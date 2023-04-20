@@ -1,4 +1,4 @@
-package VistaCocina;
+package Cocina.VistaCocina;
 
 import javax.swing.*;
 import java.awt.*;

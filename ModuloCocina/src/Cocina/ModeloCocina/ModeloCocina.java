@@ -1,4 +1,4 @@
-package ModeloCocina;
+package Cocina.ModeloCocina;
 
 public class ModeloCocina {
 }

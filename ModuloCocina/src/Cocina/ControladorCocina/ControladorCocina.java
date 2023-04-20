@@ -1,4 +1,4 @@
-package ControladorCocina;
+package Cocina.ControladorCocina;
 
 public class ControladorCocina {
 }

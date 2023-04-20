@@ -4,23 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae27cf3b-5fc8-4a93-9aba-7e39e00c2c02" name="Changes" comment="RMI interfaces">
+    <list default="true" id="ae27cf3b-5fc8-4a93-9aba-7e39e00c2c02" name="Changes" comment="Implementacion de paquetes en el servidor">
+      <change afterPath="$PROJECT_DIR$/ModuloOperador/src/ControladorOperador/IOperador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Dominio/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Factura.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Dominio/Factura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/IAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/ICocina.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/ICocina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/IOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IOperador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/IRegistro.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IRegistro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/IRepartidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IRepartidor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Dominio/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/ServiceAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/ServiceAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/ServiceCocina.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/ServiceCocina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/ServiceOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/ServiceOperador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/ServiceRegistro.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/ServiceRegistro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/ServiceRepartidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/ServiceRepartidor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Dominio/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/ControladorCocina/ControladorCocina.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/ModeloCocina/ModeloCocina.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Cocina/ModeloCocina/ModeloCocina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/VistaCocina/Bordes.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Cocina/VistaCocina/Bordes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/VistaCocina/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Cocina/VistaCocina/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/VistaCocina/VistaAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Admin/VistaAdmin/VistaAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/VistaCocina/VistaAdminDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Admin/VistaAdmin/VistaAdminDatos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/VistaCocina/VistaCocina.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Cocina/VistaCocina/VistaCocina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/VistaCocina/VistaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Admin/VistaAdmin/VistaPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloOperador/src/ControladorOperador/ControladorOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloOperador/src/ControladorOperador/ControladorOperador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,18 +62,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Estructuras/LISTAS",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MTHome"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Estructuras/LISTAS&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MTHome&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloRepartidor\src" />
@@ -89,6 +84,9 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloCocina\src\VistaCocina" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ControladorOperador" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -332,7 +330,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681534119150</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="RMI interfaces">
+      <created>1682007373572</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1682007373572</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Implementacion de paquetes en el servidor">
+      <created>1682007440144</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1682007440144</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -348,7 +360,8 @@
     <MESSAGE value="Vista operador comentada" />
     <MESSAGE value="Vista conexion operador" />
     <MESSAGE value="RMI interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="RMI interfaces" />
+    <MESSAGE value="Implementacion de paquetes en el servidor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementacion de paquetes en el servidor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -368,9 +381,9 @@
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/ModuloCocina/src/VistaCocina/VistaAdminDatos.java</url>
+          <url>file://$PROJECT_DIR$/ModuloCocina/src/Admin/VistaAdmin/VistaAdminDatos.java</url>
           <line>131</line>
-          <properties class="VistaCocina.VistaAdminDatos" method="ingresarOperador">
+          <properties class="Cocina.VistaCocina.VistaAdminDatos" method="ingresarOperador">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

@@ -1,4 +1,4 @@
-package VistaCocina;
+package Admin.VistaAdmin;
 
 import javax.swing.*;
 import java.awt.*;

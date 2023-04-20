@@ -1,4 +1,4 @@
-package Servidor;
+package Servidor.Servicios;
 
 import Servidor.Interfaces.IRegistro;
 import Servidor.Servicios.ServiceRegistro;

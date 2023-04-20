@@ -1,9 +1,10 @@
-package VistaCocina;
+package Admin.VistaAdmin;
+
+import Admin.VistaAdmin.VistaAdminDatos;
+import Cocina.VistaCocina.Bordes;
+import Cocina.VistaCocina.VistaCocina;
 
 import javax.swing.*;
-import javax.swing.border.Border;
-import javax.swing.border.EtchedBorder;
-import javax.swing.border.TitledBorder;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
