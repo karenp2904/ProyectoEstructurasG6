@@ -1,8 +1,6 @@
 package ControladorOperador;
 
 import Estructuras.Colas.ColasArray;
-import Servidor.Dominio.Cliente;
-import Servidor.Dominio.Factura;
 
 import java.rmi.Remote;
 
@@ -15,8 +13,12 @@ public interface IOperador extends Remote {
     ColasArray[] pedidosFrecuentesRestaurante(); //pedidos más vendidos
     ColasArray[] pedidosFrecuentesCliente(String telefono);//pedidos mas solicitados por el cliente
     String busquedaPedido(String pedidoABuscar); //busqueda de pedido
+
+    /*
     Cliente busquedaCliente(String clienteTelefonoABuscar); //busqueda de cliente
     Factura generarFactura();
+
+     */
 
 
 
