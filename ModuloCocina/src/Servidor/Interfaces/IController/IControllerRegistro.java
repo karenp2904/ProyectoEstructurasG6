@@ -1,9 +1,6 @@
-package Servidor.Interfaces;
+package Servidor.Interfaces.IController;
 
-import java.rmi.Remote;
-
-public interface IRegistro extends Remote {
+public interface IControllerRegistro {
     boolean registroUsuario(String nombre, String contraseña); //para añadir un nuevo usuario
     boolean validarUsuario(String modulo,String nombre, String contraseña);//para el login del modulo
-
 }

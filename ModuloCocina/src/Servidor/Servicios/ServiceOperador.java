@@ -1,9 +1,11 @@
 package Servidor.Servicios;
 
 import Estructuras.Colas.ColasArray;
+import Servidor.Controladores.ControllerOperador;
 import Servidor.Dominio.Cliente;
 import Servidor.Dominio.Factura;
-import Servidor.Interfaces.IOperador;
+import Servidor.Dominio.Pedido;
+import Servidor.Interfaces.IServices.IOperador;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
@@ -11,52 +13,47 @@ import java.rmi.server.UnicastRemoteObject;
 public class ServiceOperador extends UnicastRemoteObject implements IOperador {
 
     private static final long serialVersionUID = 1L;
-    protected ServiceOperador() throws RemoteException {
+
+    private ControllerOperador controllerOperador;
+
+    protected ServiceOperador(ControllerOperador controllerOperador) throws RemoteException {
+        this.controllerOperador=controllerOperador;
     }
 
 
     @Override
     public boolean registrarCliente(String nombre, String direccion, String telefono, String tipoDeCuenta) {
-        return false;
+        return controllerOperador.registrarCliente(nombre,direccion,telefono,tipoDeCuenta);
     }
 
     @Override
     public boolean actualizarCliente(String nombre, String direccion, String telefono, String tipoDeCuenta) {
-        return false;
+        return controllerOperador.actualizarCliente(nombre,direccion,telefono,tipoDeCuenta);
     }
 
     @Override
     public boolean ingresarPedido(String producto, String codigo, String cantidad) {
-        return false;
+        return controllerOperador.ingresarPedido(producto,codigo,cantidad);
     }
 
     @Override
     public boolean actualizarPedido(String producto, String codigo, String cantidad) {
-        return false;
-    }
-
-    @Override
-    public ColasArray[] pedidosFrecuentesRestaurante() {
-        return new ColasArray[0];
+        return controllerOperador.actualizarPedido(producto,codigo,cantidad);
     }
 
     @Override
     public ColasArray[] pedidosFrecuentesCliente(String telefono) {
-        return new ColasArray[0];
+        return controllerOperador.pedidosFrecuentesCliente(telefono);
     }
 
     @Override
     public String busquedaPedido(String pedidoABuscar) {
-        return null;
+        return controllerOperador.busquedaPedido(pedidoABuscar);
     }
 
     @Override
     public Cliente busquedaCliente(String clienteABuscar) {
-        return null;
+        return controllerOperador.busquedaCliente(clienteABuscar);
     }
 
-    @Override
-    public Factura generarFactura() {
-        return null;
-    }
 }

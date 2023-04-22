@@ -1,6 +1,7 @@
 package Servidor.Servicios;
 
-import Servidor.Interfaces.IRegistro;
+import Servidor.Controladores.ControllerRegistro;
+import Servidor.Interfaces.IServices.IRegistro;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
@@ -8,16 +9,19 @@ import java.rmi.server.UnicastRemoteObject;
 public class ServiceRegistro extends UnicastRemoteObject implements IRegistro {
     private static final long serialVersionUID = 1L;
 
-    protected ServiceRegistro() throws RemoteException {
+    private ControllerRegistro controllerRegistro;
+
+    protected ServiceRegistro(ControllerRegistro controllerRegistro) throws RemoteException {
+        this.controllerRegistro=controllerRegistro;
     }
 
     @Override
     public boolean registroUsuario(String nombre, String contraseña) {
-        return false;
+        return controllerRegistro.registroUsuario(nombre,contraseña);
     }
 
     @Override
     public boolean validarUsuario(String modulo, String nombre, String contraseña) {
-        return false;
+        return controllerRegistro.validarUsuario(modulo,nombre,contraseña);
     }
 }
