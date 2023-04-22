@@ -1,10 +1,7 @@
-package Servidor.Interfaces;
+package Servidor.Interfaces.IController;
 
-import java.rmi.Remote;
-
-public interface IAdmin extends Remote {
+public interface IControllerAdmin {
     boolean resgitrarRepartidor(String nombre,String usuario, String contraseña);
     boolean registrarOperador(String nombre,String usuario, String contraseña);
     boolean activarCocina(boolean estado);
-
 }
