@@ -4,33 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae27cf3b-5fc8-4a93-9aba-7e39e00c2c02" name="Changes" comment="Implementacion de paquetes en el servidor">
-      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Controladores/ControllerAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Controladores/ControllerCocina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Controladores/ControllerOperador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Controladores/ControllerRegistro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Controladores/ControllerRepartidor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IController/IControllerAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IController/IControllerCocina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IController/IControllerOperador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IController/IControllerRegistro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IController/IControllerRepartidor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ProyectoEstructurasG6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProyectoEstructurasG6.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IServices/IAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/ICocina.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IServices/ICocina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IServices/IOperador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IRegistro.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IServices/IRegistro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IRepartidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IServices/IRepartidor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/ServiceAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/ServiceAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/ServiceCocina.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/ServiceCocina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/ServiceOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/ServiceOperador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/ServiceRegistro.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/ServiceRegistro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/ServiceRepartidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/ServiceRepartidor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloOperador/ModuloOperador.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloOperador/ModuloOperador.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloOperador/src/ControladorOperador/IOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloOperador/src/ControladorOperador/IOperador.java" afterDir="false" />
-    </list>
+    <list default="true" id="ae27cf3b-5fc8-4a93-9aba-7e39e00c2c02" name="Changes" comment="Infraestructura del servidor- Organización de interfaces para los servicios y los controladores del servidor" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -383,7 +357,8 @@
     <MESSAGE value="Vista conexion operador" />
     <MESSAGE value="RMI interfaces" />
     <MESSAGE value="Implementacion de paquetes en el servidor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementacion de paquetes en el servidor" />
+    <MESSAGE value="Infraestructura del servidor- Organización de interfaces para los servicios y los controladores del servidor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Infraestructura del servidor- Organización de interfaces para los servicios y los controladores del servidor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
