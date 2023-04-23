@@ -1,7 +1,7 @@
 package Servidor.Servicios;
 
 import Estructuras.Colas.ColasArray;
-import Servidor.Modelo.ControllerOperador;
+import Servidor.Controladores.ControllerOperador;
 import Servidor.Dominio.Cliente;
 import Servidor.Interfaces.IServices.IOperador;
 

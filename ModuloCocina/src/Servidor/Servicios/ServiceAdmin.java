@@ -1,6 +1,6 @@
 package Servidor.Servicios;
 
-import Servidor.Modelo.ControllerAdmin;
+import Servidor.Controladores.ControllerAdmin;
 import Servidor.Interfaces.IServices.IAdmin;
 
 import java.rmi.RemoteException;

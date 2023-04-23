@@ -1,4 +1,4 @@
-package Servidor.Modelo;
+package Servidor.Controladores;
 
 import Servidor.Interfaces.IController.IControllerAdmin;
 
