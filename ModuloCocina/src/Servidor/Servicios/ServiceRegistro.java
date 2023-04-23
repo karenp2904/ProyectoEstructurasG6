@@ -1,6 +1,6 @@
 package Servidor.Servicios;
 
-import Servidor.Modelo.ControllerRegistro;
+import Servidor.Controladores.ControllerRegistro;
 import Servidor.Interfaces.IServices.IRegistro;
 
 import java.rmi.RemoteException;
