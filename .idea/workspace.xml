@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae27cf3b-5fc8-4a93-9aba-7e39e00c2c02" name="Changes" comment="Infraestructura del servidor- Organización de interfaces para los servicios y los controladores del servidor">
+    <list default="true" id="ae27cf3b-5fc8-4a93-9aba-7e39e00c2c02" name="Changes" comment="Conexion de controladores con los modelos en el servidor">
+      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Cocina/VistaCocina/MainVista.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Cocina/ModeloCocina/ModeloCocina.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Controladores/ControllerAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Controladores/ControllerAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Controladores/ControllerCocina.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Controladores/ControllerCocina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Controladores/ControllerOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Controladores/ControllerOperador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Controladores/ControllerRegistro.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Controladores/ControllerRegistro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Controladores/ControllerRepartidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Controladores/ControllerRepartidor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Dominio/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Dominio/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IServices/IAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IServices/IAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IServices/ICocina.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IServices/ICocina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Modelos/ModeloCocina.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Modelos/ModeloCocina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Cocina/ControladorCocina/ControladorCocina.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Cocina/ControladorCocina/ControladorCocina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Cocina/VistaCocina/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Cocina/VistaCocina/VistaCocina.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Cocina/VistaCocina/VistaCocina.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +84,7 @@
       <recent name="ControladorOperador" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.MainVista">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="VistaCocina.Main" />
       <module name="ModuloCocina" />
@@ -132,13 +124,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainVista" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Cocina.VistaCocina.MainVista" />
+      <module name="ModuloCocina" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Cocina.VistaCocina.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainRepartidor" />
-        <item itemvalue="Application.MainOperador" />
+        <item itemvalue="Application.MainVista" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainRepartidor" />
         <item itemvalue="Application.MainOperador" />
+        <item itemvalue="Application.MainRepartidor" />
       </list>
     </recent_temporary>
   </component>
@@ -382,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682226688339</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Conexion de controladores con los modelos en el servidor">
+      <created>1682268380314</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1682268380314</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -400,7 +412,8 @@
     <MESSAGE value="RMI interfaces" />
     <MESSAGE value="Implementacion de paquetes en el servidor" />
     <MESSAGE value="Infraestructura del servidor- Organización de interfaces para los servicios y los controladores del servidor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Infraestructura del servidor- Organización de interfaces para los servicios y los controladores del servidor" />
+    <MESSAGE value="Conexion de controladores con los modelos en el servidor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Conexion de controladores con los modelos en el servidor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
