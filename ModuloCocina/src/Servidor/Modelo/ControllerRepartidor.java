@@ -1,4 +1,4 @@
-package Servidor.Controladores;
+package Servidor.Modelo;
 
 import Estructuras.Colas.ColasList;
 import Servidor.Dominio.Factura;

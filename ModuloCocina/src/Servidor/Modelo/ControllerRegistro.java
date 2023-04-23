@@ -1,4 +1,4 @@
-package Servidor.Controladores;
+package Servidor.Modelo;
 
 import Servidor.Interfaces.IController.IControllerRegistro;
 

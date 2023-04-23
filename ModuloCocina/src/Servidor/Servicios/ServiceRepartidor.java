@@ -1,7 +1,7 @@
 package Servidor.Servicios;
 
 import Estructuras.Colas.ColasList;
-import Servidor.Controladores.ControllerRepartidor;
+import Servidor.Modelo.ControllerRepartidor;
 import Servidor.Dominio.Factura;
 import Servidor.Interfaces.IServices.IRepartidor;
 
