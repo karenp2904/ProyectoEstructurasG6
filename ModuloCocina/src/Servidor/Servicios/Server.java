@@ -95,7 +95,7 @@ public class Server implements Runnable {
             return ack;
         }
     }
-
+//
     public boolean deployServiceRepartidor() {
         boolean ack = false;
         if (ip == null | port == null | serviceName == null) return ack;
