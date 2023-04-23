@@ -26,7 +26,7 @@ public class Main {
             ServiceRepartidor serviceRepartidor = new ServiceRepartidor(new ControllerRepartidor());
             Server modRepartidor = new Server(properties.get("IP"), properties.get("PORT1"), properties.get("SERVICE1"), serviceRepartidor);
 
-            Thread[] threadList = {new Thread(modRegistgro), new Thread(modOperador), new Thread(modAdmin), new Thread(modCocina), new Thread(modRepartidor)};
+            Thread[] threadList = {new Thread(modRegistgro), new Thread(modAdmin), new Thread(modOperador), new Thread(modCocina), new Thread(modRepartidor)};
 
             for (Thread thread : threadList) { //hilos
                 thread.start();

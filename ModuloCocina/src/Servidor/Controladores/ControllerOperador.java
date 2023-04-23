@@ -5,49 +5,52 @@ import Servidor.Dominio.Cliente;
 import Servidor.Dominio.Factura;
 import Servidor.Dominio.Pedido;
 import Servidor.Interfaces.IController.IControllerOperador;
+import Servidor.Modelos.ModeloOperador;
 
 import java.io.Serializable;
 
 public class ControllerOperador implements IControllerOperador, Serializable {
 
+    private ModeloOperador modeloOperador;
+
     @Override
     public boolean registrarCliente(String nombre, String direccion, String telefono, String tipoDeCuenta) {
-        return false;
+        return modeloOperador.registrarCliente(nombre,direccion,telefono,tipoDeCuenta);
     }
 
     @Override
     public boolean actualizarCliente(String nombre, String direccion, String telefono, String tipoDeCuenta) {
-        return false;
+        return modeloOperador.actualizarCliente(nombre,direccion,telefono,tipoDeCuenta);
     }
 
     @Override
     public boolean ingresarPedido(String producto, String codigo, String cantidad) {
-        return false;
+        return modeloOperador.ingresarPedido(producto,codigo,cantidad);
     }
 
     @Override
     public boolean actualizarPedido(String producto, String codigo, String cantidad) {
-        return false;
+        return modeloOperador.actualizarPedido(producto,codigo,cantidad);
     }
 
     @Override
     public ColasArray[] pedidosFrecuentesCliente(String telefono) {
-        return new ColasArray[0];
+        return modeloOperador.pedidosFrecuentesCliente(telefono);
     }
 
     @Override
     public String busquedaPedido(String pedidoABuscar) {
-        return null;
+        return modeloOperador.busquedaPedido(pedidoABuscar);
     }
 
     @Override
     public Cliente busquedaCliente(String clienteTelefonoABuscar) {
-        return null;
+        return modeloOperador.busquedaCliente(clienteTelefonoABuscar);
     }
 
     @Override
     public Factura generarFactura(Pedido pedido, Cliente cliente) {
-        return null;
+        return modeloOperador.generarFactura(pedido,cliente);
     }
 
 }

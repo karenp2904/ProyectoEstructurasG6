@@ -3,7 +3,7 @@ package Servidor.Dominio;
 public class Pedido {
 
     String productoNombre;
-    String codigo;
+    String codigo; //tiempo de ccoion
     String cantidad;
 
     public Pedido(String productoNombre, String codigo, String cantidad) {

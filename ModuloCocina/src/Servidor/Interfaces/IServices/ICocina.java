@@ -9,6 +9,7 @@ import java.rmi.RemoteException;
 
 public interface ICocina extends Remote {
 
+
     PriorityQueue pantallaDePedidos(Pedido pedido,int prioridad) throws RemoteException;
     int clasificarPedidoPrioridad(Factura factura) throws RemoteException;
     boolean entregarPedido(PriorityQueue queue) throws RemoteException;

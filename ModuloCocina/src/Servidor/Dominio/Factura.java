@@ -24,4 +24,12 @@ public class Factura {
     public void setCliente(Cliente cliente) {
         this.cliente = cliente;
     }
+
+    @Override
+    public String toString() {
+        return "Factura {" +
+                "pedido=" + pedido.getProductoNombre() +" - "+ pedido.getCantidad() +
+                ", cliente=" + cliente.getNombreCliente() +" - "+ cliente.getTelefono()+" - "+cliente.getDireccionCliente() +" - "+ cliente.getTipoCuenta() +
+                '}';
+    }
 }
