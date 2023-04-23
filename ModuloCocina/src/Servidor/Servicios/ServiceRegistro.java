@@ -11,7 +11,7 @@ public class ServiceRegistro extends UnicastRemoteObject implements IRegistro {
 
     private ControllerRegistro controllerRegistro;
 
-    protected ServiceRegistro(ControllerRegistro controllerRegistro) throws RemoteException {
+    public ServiceRegistro(ControllerRegistro controllerRegistro) throws RemoteException {
         this.controllerRegistro=controllerRegistro;
     }
 

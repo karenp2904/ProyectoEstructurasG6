@@ -1,11 +1,8 @@
-package Servidor.Controladores;
+package Servidor.Modelos;
 
 import Servidor.Interfaces.IController.IControllerAdmin;
 
-import java.io.Serializable;
-
-public class ControllerAdmin implements IControllerAdmin, Serializable {
-
+public class ModeloAdmin implements IControllerAdmin {
     @Override
     public boolean resgitrarRepartidor(String nombre, String usuario, String contraseña) {
         return false;

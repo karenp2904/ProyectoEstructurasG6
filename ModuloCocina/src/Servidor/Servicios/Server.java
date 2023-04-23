@@ -5,38 +5,41 @@ import Servidor.Interfaces.IServices.*;
 
 import java.net.MalformedURLException;
 import java.rmi.Naming;
+import java.rmi.Remote;
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class Server implements Runnable {
-    public String ip;
-    public String port;
-    public String serviceName;
-    public String url;
+    private String ip;
+    private String port;
+    private String url;
+    private String serviceName;
+    private Remote service;
 
-    public Server(String ip, String port, String serviceName) {
+    public Server(String ip, String port, String serviceName, Remote service)  {
         this.ip = ip;
         this.port = port;
         this.serviceName = serviceName;
+        this.service = service;
         this.url = "//" + ip + ":" + port + "/" + serviceName;
     }
 
     public boolean deployServiceRegistro() {
-        boolean ack = false;
-        if (ip == null | port == null | serviceName == null) return ack;
+        boolean successful = false;
+        if (ip == null || port == null || serviceName == null)
+            return successful;
         try {
-            System.setProperty( "java.rmi.server.hostname", ip);
-            IRegistro service = new ServiceRegistro(new ControllerRegistro());
+            System.setProperty("java.rmi.server.hostname", ip);
             LocateRegistry.createRegistry(Integer.parseInt(port));
             Naming.rebind(url, service);
-            ack = true;
-        } catch (RemoteException e) {
-            e.printStackTrace();
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
-        } finally {
-            return ack;
+            Logger.getLogger(this.getClass().getSimpleName()).log(Level.INFO, "Service is running on {0}", url);
+            successful = true;
+        } catch (RemoteException | MalformedURLException e) {
+            Logger.getLogger(this.getClass().getSimpleName()).log(Level.WARNING, e.getMessage(), e);
         }
+        return successful;
     }
 
     public boolean deployServiceAdmin() {

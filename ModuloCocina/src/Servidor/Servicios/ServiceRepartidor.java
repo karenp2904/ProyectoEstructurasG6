@@ -14,7 +14,7 @@ public class ServiceRepartidor extends UnicastRemoteObject implements IRepartido
 
     private ControllerRepartidor controllerRepartidor;
 
-    protected ServiceRepartidor(ControllerRepartidor controllerRepartidor) throws RemoteException {
+    public ServiceRepartidor(ControllerRepartidor controllerRepartidor) throws RemoteException {
         this.controllerRepartidor=controllerRepartidor;
     }
 

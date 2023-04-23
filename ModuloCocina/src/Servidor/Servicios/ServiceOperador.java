@@ -3,8 +3,6 @@ package Servidor.Servicios;
 import Estructuras.Colas.ColasArray;
 import Servidor.Controladores.ControllerOperador;
 import Servidor.Dominio.Cliente;
-import Servidor.Dominio.Factura;
-import Servidor.Dominio.Pedido;
 import Servidor.Interfaces.IServices.IOperador;
 
 import java.rmi.RemoteException;
@@ -16,7 +14,7 @@ public class ServiceOperador extends UnicastRemoteObject implements IOperador {
 
     private ControllerOperador controllerOperador;
 
-    protected ServiceOperador(ControllerOperador controllerOperador) throws RemoteException {
+    public ServiceOperador(ControllerOperador controllerOperador) throws RemoteException {
         this.controllerOperador=controllerOperador;
     }
 

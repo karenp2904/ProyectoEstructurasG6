@@ -13,7 +13,7 @@ public class ServiceAdmin extends UnicastRemoteObject implements IAdmin {
     private static final long serialVersionUID = 1L;
 
 
-    protected ServiceAdmin(ControllerAdmin controllerAdmin) throws RemoteException {
+    public ServiceAdmin(ControllerAdmin controllerAdmin) throws RemoteException {
         this.controllerAdmin=controllerAdmin;
     }
 
