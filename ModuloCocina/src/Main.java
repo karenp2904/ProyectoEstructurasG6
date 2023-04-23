@@ -28,7 +28,7 @@ public class Main {
 
             Thread[] threadList = {new Thread(modRegistgro), new Thread(modOperador), new Thread(modAdmin), new Thread(modCocina), new Thread(modRepartidor)};
 
-            for (Thread thread : threadList) {
+            for (Thread thread : threadList) { //hilos
                 thread.start();
             }
             Logger.getLogger("Server").log(Level.INFO, "Server is running...");
