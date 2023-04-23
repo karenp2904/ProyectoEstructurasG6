@@ -1,10 +1,8 @@
 package Servidor.Servicios;
 
 import Estructuras.Colas.ColasArray;
-import Servidor.Controladores.ControllerOperador;
+import Servidor.Modelo.ControllerOperador;
 import Servidor.Dominio.Cliente;
-import Servidor.Dominio.Factura;
-import Servidor.Dominio.Pedido;
 import Servidor.Interfaces.IServices.IOperador;
 
 import java.rmi.RemoteException;

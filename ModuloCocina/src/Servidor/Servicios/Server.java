@@ -1,6 +1,6 @@
 package Servidor.Servicios;
 
-import Servidor.Controladores.*;
+import Servidor.Modelo.*;
 import Servidor.Interfaces.IServices.*;
 
 import java.net.MalformedURLException;

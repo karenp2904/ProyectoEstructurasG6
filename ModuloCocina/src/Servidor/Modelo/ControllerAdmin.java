@@ -1,8 +1,6 @@
-package Servidor.Controladores;
+package Servidor.Modelo;
 
-import Estructuras.APriorityQueue.PriorityQueue;
 import Servidor.Interfaces.IController.IControllerAdmin;
-import Servidor.Interfaces.IController.IControllerCocina;
 
 import java.io.Serializable;
 

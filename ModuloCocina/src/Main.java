@@ -1,5 +1,3 @@
-package Servidor;
-
 import Servidor.Servicios.Server;
 
 import java.io.File;
