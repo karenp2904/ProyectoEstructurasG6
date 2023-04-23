@@ -11,7 +11,7 @@ import java.rmi.server.UnicastRemoteObject;
 
 public class ServiceCocina extends UnicastRemoteObject implements ICocina {
 
-    private ControllerCocina controllerCocina;
+    private ControllerCocina controllerCocina; //instancia
     private static final long serialVersionUID = 1L;
 
     public ServiceCocina(ControllerCocina controllerCocina) throws RemoteException {
