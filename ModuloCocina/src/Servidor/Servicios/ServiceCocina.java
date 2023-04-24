@@ -15,7 +15,7 @@ public class ServiceCocina extends UnicastRemoteObject implements ICocina {
     private static final long serialVersionUID = 1L;
 
     public ServiceCocina(ControllerCocina controllerCocina) throws RemoteException {
-        this.controllerCocina=controllerCocina;
+        this.controllerCocina=controllerCocina; //controlador
     }
 
     @Override
