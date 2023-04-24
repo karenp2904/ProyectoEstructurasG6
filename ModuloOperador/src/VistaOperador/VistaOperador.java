@@ -21,6 +21,7 @@ import javax.swing.WindowConstants;
 public class VistaOperador extends JFrame {
     /*
     //
+    //
     En esta ventana estara el menu de  busqueda
     Se encuentra el login del operador con usuario y contraseña
     Se reclama el numero del cliente y se muestran los datos del mismo

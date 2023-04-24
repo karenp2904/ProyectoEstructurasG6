@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae27cf3b-5fc8-4a93-9aba-7e39e00c2c02" name="Changes" comment="Vista repartidor">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_20220320.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/ModeloCocina/JSON/JSON.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuloOperador/src/ModeloOperador/JSONClientes/JsonClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ProyectoEstructurasG6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProyectoEstructurasG6.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/ModuloCocina.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/ModuloCocina.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloOperador/ModuloOperador.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloOperador/ModuloOperador.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloRepartidor/ModuloRepartidor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloRepartidor/ModuloRepartidor.iml" afterDir="false" />
+    <list default="true" id="ae27cf3b-5fc8-4a93-9aba-7e39e00c2c02" name="Changes" comment="RMI interfaces">
+      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/ICocina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/ServiceAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/ServiceRepartidor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/ServidorCocina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/ServicioOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/ServicioOperador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +19,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="Karen" />
+    <option name="BRANCH" value="main" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -62,15 +58,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/AngiePC/OneDrive - UPB/UPB/Universidad UPB/3. Tercer Semestre/ESTRUCTURA DE DATOS/PROYECTO/LIBRERIAS/json-20220320.jar",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "C:/Users/karen/IdeaProjects/ProyectoEstructurasG6/ModuloRepartidor/src",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "MTHome"
@@ -78,16 +70,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloCocina\src" />
-      <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloCocina\src\VistaCocina" />
       <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloRepartidor\src" />
       <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloOperador\src" />
+      <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloCocina\src\Estructuras" />
+      <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloCocina\src\Servidor" />
+      <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloCocina\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloCocina\src\VistaCocina" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainOperador">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="VistaCocina.Main" />
       <module name="ModuloCocina" />
@@ -129,10 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainOperador" />
         <item itemvalue="Application.MainRepartidor" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainOperador" />
+        <item itemvalue="Application.MainRepartidor" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +237,77 @@
       <option name="project" value="LOCAL" />
       <updated>1680583134666</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Vista operador comentada">
+      <created>1680658119812</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1680658119812</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Vista operador comentada">
+      <created>1681512981039</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1681512981039</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Vista conexion operador">
+      <created>1681524178633</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1681524178633</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Vista conexion operador">
+      <created>1681524195544</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1681524195544</updated>
+    </task>
+    <task id="LOCAL-00019" summary="RMI interfaces">
+      <created>1681525636604</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1681525636604</updated>
+    </task>
+    <task id="LOCAL-00020" summary="RMI interfaces">
+      <created>1681527182195</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1681527182195</updated>
+    </task>
+    <task id="LOCAL-00021" summary="RMI interfaces">
+      <created>1681531598992</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1681531598993</updated>
+    </task>
+    <task id="LOCAL-00022" summary="RMI interfaces">
+      <created>1681532648725</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1681532648725</updated>
+    </task>
+    <task id="LOCAL-00023" summary="RMI interfaces">
+      <created>1681532690582</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1681532690582</updated>
+    </task>
+    <task id="LOCAL-00024" summary="RMI interfaces">
+      <created>1681533293183</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1681533293184</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -255,21 +319,15 @@
     <MESSAGE value="Actualizacion de paquetes" />
     <MESSAGE value="Vista del operador- Ingreso de pedidos" />
     <MESSAGE value="Vista repartidor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vista repartidor" />
+    <MESSAGE value="Actualizacion conexion cocina admin" />
+    <MESSAGE value="Vista operador comentada" />
+    <MESSAGE value="Vista conexion operador" />
+    <MESSAGE value="RMI interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="RMI interfaces" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperador.java</url>
-          <line>356</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperador.java</url>
-          <line>372</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperadorDatos.java</url>
           <line>161</line>
@@ -283,6 +341,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/ModuloCocina/src/VistaCocina/VistaAdminDatos.java</url>
+          <line>131</line>
+          <properties class="VistaCocina.VistaAdminDatos" method="ingresarOperador">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
