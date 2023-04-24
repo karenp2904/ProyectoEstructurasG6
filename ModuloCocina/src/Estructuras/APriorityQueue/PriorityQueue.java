@@ -1,9 +1,9 @@
 package Estructuras.APriorityQueue;
 
-import Estructuras.DinamicQueue.Queue;
+import  Estructuras.DinamicQueue.Queue;
 
-public class PriorityQueue {
-	
+public class PriorityQueue implements QueueInterface {
+
 	Queue arrayQueue[];//array de prioridad
 	final int numeroPrioridad;//numero de prioridades establecedido
 	

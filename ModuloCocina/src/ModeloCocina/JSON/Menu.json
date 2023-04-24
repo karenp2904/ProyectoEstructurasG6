@@ -1,0 +1,78 @@
+[    
+    {        
+        "Tipo": "Perro",        
+        "Tamaño": "S",        
+        "Precio": 
+
+    [            
+        {                
+        "PrecioSinGaseosa": 9000            
+        },   
+
+        {               
+         "PrecioConGaseosa": 11990            
+        }        
+    ],
+        "Descripcion": "Medio pan francés 15 cm, salchicha americana o de pollo, salsas de la casa, ripio de papas, cebolla y queso."
+    },
+    {
+        "Tipo": "Perro",
+        "Tamaño": "L",
+        "Precio": [
+            {
+                "PrecioSinGaseosa": 13500
+            },
+            {
+                "PrecioConGaseosa": 16990
+            }
+        ],
+        "Descripcion": "Un pan francés 30cm, salchicha americana o de pollo tamaño, salsas de la casa, ripio de papas, cebolla, queso."
+    },
+    {
+        "Tipo": "Perro",
+        "Tamaño": "XL",
+        "Precio": [
+            {
+                "PrecioSinGaseosa": 18000
+            },
+            {
+                "PrecioConGaseosa": 20990
+            }
+        ],
+        "Descripcion": "Un pan francés 45 cm, salchicha americana o de pollo tamaño, salsas de la casa, ripio de papas, cebolla, queso. "
+    },
+    {
+        "Adicionales": [
+            {
+                "nombre": "Extra Queso",
+                "precio": 3000
+            },
+            {
+                "nombre": "Carne Mechada",
+                "precio": 3500
+            },
+            {
+                "nombre": "Pollo Mechado",
+                "precio": 3000
+            },
+            {
+                "nombre": "Pepinillos",
+                "precio": 3000
+            },
+            {
+                "nombre": "Tocineta",
+                "precio": 4000
+            },
+            {
+                "nombre": "PapaFritas",
+                "precio": 3500
+            }
+        ]
+    },
+    {
+        "Tipo": "Papas",
+        "Base": "Papas fritas, salsas, cebolla y queso ",
+        "Proteínas": ["Carne","Pechuga","Cerdo","Salchicha","Carne Vegetariana"],
+        "Vegetales": ["Cebolla", "Repollo", "Maiz", "Jalapeños"]
+    }
+]
