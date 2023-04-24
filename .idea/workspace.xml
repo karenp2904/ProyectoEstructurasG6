@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae27cf3b-5fc8-4a93-9aba-7e39e00c2c02" name="Changes" comment="Conexion de controladores con los modelos en el servidor">
-      <change afterPath="$PROJECT_DIR$/ModuloCocina/src/Cocina/VistaCocina/MainVista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Cocina/ControladorCocina/ControladorCocina.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Cocina/ControladorCocina/ControladorCocina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Cocina/VistaCocina/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Cocina/VistaCocina/VistaCocina.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Cocina/VistaCocina/VistaCocina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/ModeloCocina/JSON.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/ModeloCocina/JSON/Cliente.json" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Modelos/JSON/Cliente.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/ModeloCocina/JSON/Facturas.json" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Modelos/JSON/Facturas.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/ModeloCocina/JSON/JSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Modelos/JSON/JSON.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/ModeloCocina/JSON/Menu.json" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Modelos/JSON/Menu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/ModeloCocina/JSON/Pedidos.json" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Modelos/JSON/Pedidos.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -396,6 +397,17 @@
     </task>
     <option name="localTasksCounter" value="35" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="probando" />
