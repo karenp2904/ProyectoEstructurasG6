@@ -1,3 +1,5 @@
 package ModeloCocina.JSON;
 
-public class JSON { }
+public class JSON{
+    //
+}
