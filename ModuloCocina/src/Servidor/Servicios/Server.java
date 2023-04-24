@@ -26,7 +26,12 @@ public class Server implements Runnable {
         this.url = "//" + ip + ":" + port + "/" + serviceName;
     }
 
-    public boolean deployServiceRegistro() {
+    @Override
+    public void run() {
+        this.deployService();
+    }
+
+    public boolean deployService() {
         boolean successful = false;
         if (ip == null || port == null || serviceName == null)
             return successful;
@@ -41,7 +46,7 @@ public class Server implements Runnable {
         }
         return successful;
     }
-
+/*
     public boolean deployServiceAdmin() {
         boolean ack = false;
         if (ip == null | port == null | serviceName == null) return ack;
@@ -114,9 +119,6 @@ public class Server implements Runnable {
         }
     }
 
-    @Override
-    public void run() {
-        this.deployServiceRegistro();
-        this.deployServiceAdmin();
-    }
+ */
+
 }

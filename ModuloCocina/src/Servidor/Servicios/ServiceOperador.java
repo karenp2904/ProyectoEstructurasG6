@@ -4,7 +4,14 @@ import Estructuras.Colas.ColasArray;
 import Servidor.Controladores.ControllerOperador;
 import Servidor.Dominio.Cliente;
 import Servidor.Interfaces.IServices.IOperador;
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
@@ -45,7 +52,7 @@ public class ServiceOperador extends UnicastRemoteObject implements IOperador {
     }
 
     @Override
-    public String busquedaPedido(String pedidoABuscar) {
+    public Cliente busquedaPedido(String pedidoABuscar) {
         return controllerOperador.busquedaPedido(pedidoABuscar);
     }
 
@@ -53,5 +60,34 @@ public class ServiceOperador extends UnicastRemoteObject implements IOperador {
     public Cliente busquedaCliente(String clienteABuscar) {
         return controllerOperador.busquedaCliente(clienteABuscar);
     }
+
+    //Json part 
+    public class FileJsonAdapter<T> {
+
+        public T getObject(String path, Class<T> classOfT) {
+            T object = null;
+            try (BufferedReader br = new BufferedReader(new FileReader(path))) {
+                Gson gson = new GsonBuilder().create();
+                object = gson.fromJson(br, classOfT);
+            } catch (FileNotFoundException ex) {
+                ex.printStackTrace();
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
+            return object;
+        }
+    
+        public boolean writeObject(String path, T object) {
+            try (FileWriter writer = new FileWriter(path)) {
+                Gson gson = new GsonBuilder().create();
+                gson.toJson(object, writer);
+                return true;
+            } catch (IOException ex) {
+                ex.printStackTrace();
+                return false;
+            }
+        }
+    }
+
 
 }
