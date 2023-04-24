@@ -46,4 +46,11 @@ public class ModeloOperador implements IControllerOperador {
     public Factura generarFactura(Pedido pedido, Cliente cliente) {
         return null;
     }
+
+    public ModeloOperador obtenerDatos() {
+        return null;
+    }
+    
+
+
 }

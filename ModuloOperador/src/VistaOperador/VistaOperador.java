@@ -18,6 +18,21 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.WindowConstants;
 
+import ControladorOperador.ControladorOperador;
+import Servidor.Controladores.ControllerOperador;
+import Servidor.Dominio.Cliente;
+import Servidor.Dominio.Factura;
+import Servidor.Dominio.Pedido;
+import Servidor.Servicios.ServiceOperador;
+import Estructuras.Colas.ColasArray;
+import ModeloOperador.ModeloOperador;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.Arrays;
+
 public class VistaOperador extends JFrame {
     /*
     //
@@ -216,6 +231,7 @@ public class VistaOperador extends JFrame {
         });
         panelBlanco.add(botonBuscar);
 
+    
         JButton botonRegistrar=new JButton(); //boton de registro
         botonRegistrar.setBounds(300, 600, 200, 100);
         ImageIcon imgRegis= new ImageIcon("ModuloOperador/src/Imagenes/botonRegistrar.png");// se le pone icono a boton
@@ -232,12 +248,45 @@ public class VistaOperador extends JFrame {
         botonRegistrar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+        
+                ControladorOperador.guardarDatos();
+                JOptionPane.showMessageDialog(VistaOperador.this, "Datos guardados en archivo JSON.");
+                ModeloOperador datos = ServiceOperador.readObject("datos.json");
+            
                 panelPedido.setVisible(false);
                 VistaOperadorDatos ventanaDatos=new VistaOperadorDatos();
                 ventanaDatos.panelRegistroCliente();
                 dispose();
             }
+        }); // added closing brace here
+        
+        // Agregar listener para el botón de cargar datos
+        botonCargarDatos.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // Cargar los datos del archivo JSON
+                ModeloOperador datos = ServiceOperador.readObject("cliente.json");
+        
+                // Actualizar la interfaz de usuario con los datos cargados
+                nombreCliente.setText(datos.getNombreCliente());
+                direccionCliente.setText(datos.getDireccionCliente());
+                telefonoCliente.setText(datos.getTelefonoCliente());
+                tipoCuentaCliente.setText(datos.getTipoCuentaCliente());
+        
+                nombrePedido.setText(datos.getNombrePedido());
+                codigoPedido.setText(datos.getCodigoPedido());
+                cantidadPedido.setText(datos.getCantidadPedido());
+        
+                resultadoBusqueda.setText(datos.getResultadoBusqueda());
+        
+                listaClientes.setListData(datos.getListaClientes());
+                listaPedidos.setListData(datos.getListaPedidos());
+        
+                JOptionPane.showMessageDialog(VistaOperador.this, "Datos cargados desde archivo JSON.");
+            } // added semicolon here
         });
+        
+        
         panelBlanco.add(botonRegistrar);
 
         JButton botonIngresar=new JButton(); //boton para ingresar pedido

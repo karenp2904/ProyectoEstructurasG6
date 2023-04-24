@@ -6,11 +6,14 @@ import Servidor.Dominio.Factura;
 import Servidor.Dominio.Pedido;
 import Servidor.Interfaces.IController.IControllerOperador;
 import Servidor.Modelos.ModeloOperador;
+import Servidor.Servicios.ServiceOperador;
+
 
 import java.io.Serializable;
 
 public class ControllerOperador implements IControllerOperador, Serializable {
 
+    private String archivoJSON = "datos.json";
     private ModeloOperador modeloOperador;
 
     @Override
@@ -53,4 +56,19 @@ public class ControllerOperador implements IControllerOperador, Serializable {
         return modeloOperador.generarFactura(pedido,cliente);
     }
 
+    //Json part
+
+    public void guardarDatos() {
+        // Obtener los datos del modelo
+        ModeloOperador datos = modeloOperador.obtenerDatos();
+    
+        // Escribir los datos en un archivo JSON
+        boolean exito = ServiceOperador.writeObject(archivoJSON, datos);
+    
+        if (!exito) {
+            System.err.println("Error al guardar los datos en el archivo JSON.");
+        }
+
+    }
+    
 }

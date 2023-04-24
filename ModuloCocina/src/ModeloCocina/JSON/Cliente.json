@@ -1,0 +1,30 @@
+{
+    "Clientes": [
+      {
+        "Id": 0,
+        "Nombre": "Andres",
+        "Direccion": "Cra 27 · 32-85",
+        "Telefono": "0000000",
+        "Tipo": "Premium"
+      },
+      {
+        "Id": "01",
+        "Nombre": 50,
+        "Direccion": "libras",
+        "Telefono": "libras"
+      },
+      {
+        "Id": "02",
+        "Nombre": 50,
+        "Direccion": "libras",
+        "Telefono": "libras"
+      },
+      {
+        "Id": "03",
+        "Nombre": 50,
+        "Direccion": "libras",
+        "Telefono": "libras"
+      }
+    ]
+  }
+  
