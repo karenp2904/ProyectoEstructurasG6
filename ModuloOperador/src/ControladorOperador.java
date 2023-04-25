@@ -18,7 +18,7 @@ public class ControladorOperador {
     public static void main(String[] args) throws RemoteException {
         Properties properties= new Properties();
         try {
-            properties.load(new FileInputStream(new File("client.properties")));
+            properties.load(new FileInputStream(new File("ModuloOperador/src/client.properties")));
             ClienteOperador client = new ClienteOperador(
                     (String) properties.get("IP"),
                     (String) properties.get("PORT"),
@@ -50,15 +50,6 @@ public class ControladorOperador {
 
             //para buscar un pedido
             client.busquedaPedido(vistaOperadorDatos.buscarPedido());
-
-
-
-
-
-
-
-
-
 
 
         }catch (FileNotFoundException e) {

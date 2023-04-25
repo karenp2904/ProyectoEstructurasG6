@@ -21,7 +21,7 @@ public class Environment {
     }
 
     private String getPathProperties() {
-        return "src/server.properties";
+        return "ModuloCocina/src/server.properties";
     }
 
     private void loadVariables(String path) {
@@ -35,6 +35,10 @@ public class Environment {
             this.variables.put("SERVICE0", service[0]);
             this.variables.put("PORT1", port[1]);
             this.variables.put("SERVICE1", service[1]);
+            this.variables.put("PORT2", port[2]);
+            this.variables.put("SERVICE2", service[2]);
+            this.variables.put("PORT3", port[3]);
+            this.variables.put("SERVICE3", service[3]);
             this.variables.put("DBPATH", (String) properties.get("DBPATH"));
         } catch (Exception e) {
             Logger.getLogger("Server").log(Level.WARNING, e.getMessage(), e);
