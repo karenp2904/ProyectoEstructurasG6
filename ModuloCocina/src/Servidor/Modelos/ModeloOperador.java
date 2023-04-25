@@ -33,12 +33,12 @@ public class ModeloOperador implements IControllerOperador {
     }
 
     @Override
-    public String busquedaPedido(String pedidoABuscar) {
+    public ColasArray[] busquedaPedido(String pedidoABuscar) {
         return null;
     }
 
     @Override
-    public Cliente busquedaCliente(String clienteTelefonoABuscar) {
+    public ColasArray[] busquedaCliente(String clienteTelefonoABuscar) {
         return null;
     }
 

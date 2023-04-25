@@ -5,12 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae27cf3b-5fc8-4a93-9aba-7e39e00c2c02" name="Changes" comment="Prueba">
-      <change afterPath="$PROJECT_DIR$/ModuloOperador/src/ControladorOperador/ClienteOperador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/google_code_gson.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModuloOperador/src/ControladorOperador/IRegistro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ProyectoEstructurasG6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProyectoEstructurasG6.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/ModuloCocina.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/ModuloCocina.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Controladores/ControllerOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Controladores/ControllerOperador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IController/IControllerOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IController/IControllerOperador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IServices/IOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IServices/IOperador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IServices/IRegistro.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IServices/IRegistro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Modelos/ModeloOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Modelos/ModeloOperador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/ServiceOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/ServiceOperador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloOperador/src/ControladorOperador/ControladorOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloOperador/src/ControladorOperador/ControladorOperador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/ServiceRegistro.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/ServiceRegistro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/server.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/server.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Shared/Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Shared/Environment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloOperador/ModuloOperador.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloOperador/ModuloOperador.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloOperador/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloOperador/src/ControladorOperador/ClienteOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloOperador/src/ControladorOperador/ClienteOperador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloOperador/src/ControladorOperador/ControladorOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloOperador/src/ControladorOperador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloOperador/src/ControladorOperador/IOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloOperador/src/ControladorOperador/IOperador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloOperador/src/VistaOperador/MainOperador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperadorDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperadorDatos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloRepartidor/ModuloRepartidor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloRepartidor/ModuloRepartidor.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,12 +76,16 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/karen/IdeaProjects/ProyectoEstructurasG6&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/karen/IdeaProjects/ProyectoEstructurasG6/ModuloCocina/src/Servidor/Modelos&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;MTHome&quot;
@@ -79,13 +100,21 @@
       <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloCocina\src\Servidor" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloCocina\src" />
       <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloCocina\src\VistaCocina" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ControladorOperador" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainVista">
+  <component name="RunManager" selected="Application.ControladorOperador">
+    <configuration name="ControladorOperador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ControladorOperador" />
+      <module name="ModuloOperador" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="VistaCocina.Main" />
       <module name="ModuloCocina" />
@@ -140,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ControladorOperador" />
         <item itemvalue="Application.MainVista" />
         <item itemvalue="Application.MainRepartidor" />
         <item itemvalue="Application.MainOperador" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MainVista" />
       </list>
     </recent_temporary>
   </component>
@@ -395,7 +424,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682268380314</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Prueba">
+      <created>1682369834510</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1682369834510</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Prueba">
+      <created>1682369849137</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1682369849137</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -414,24 +457,16 @@
     <MESSAGE value="Implementacion de paquetes en el servidor" />
     <MESSAGE value="Infraestructura del servidor- Organización de interfaces para los servicios y los controladores del servidor" />
     <MESSAGE value="Conexion de controladores con los modelos en el servidor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Conexion de controladores con los modelos en el servidor" />
+    <MESSAGE value="Prueba" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prueba" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperadorDatos.java</url>
-          <line>161</line>
+          <line>163</line>
           <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaPrincipalOpera.java</url>
-          <line>31</line>
-          <properties class="VistaOperador.VistaPrincipalOpera" method="panelInicio">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/ModuloCocina/src/Admin/VistaAdmin/VistaAdminDatos.java</url>
@@ -441,6 +476,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperadorDatos.java</url>
+          <line>141</line>
+          <properties class="VistaOperador.VistaOperadorDatos" method="ingresarDireccion">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/ModuloOperador/src/VistaOperador/VistaOperadorDatos.java</url>
+          <line>33</line>
+          <properties class="VistaOperador.VistaOperadorDatos" method="panelRegistroCliente">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,8 +1,6 @@
 package ControladorOperador;
 
 import Estructuras.Colas.ColasArray;
-import Servidor.Dominio.Cliente;
-import Servidor.Interfaces.IServices.IOperador;
 
 import java.io.Serializable;
 import java.net.MalformedURLException;
@@ -10,8 +8,9 @@ import java.rmi.Naming;
 import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
 
-public class ClienteOperador  implements  IOperador, Serializable {
+public class ClienteOperador  implements Serializable {
     private IOperador service;
+    private IRegistro serviceUsuario;
     private String ip;
     private String port;
     private String serviceName;
@@ -25,8 +24,7 @@ public class ClienteOperador  implements  IOperador, Serializable {
         this.url = "rmi://" + ip + ":" + port + "/" + serviceName;
     }
 
-
-    @Override
+    
     public boolean registrarCliente(String nombre, String direccion, String telefono, String tipoDeCuenta) throws RemoteException {
         try{
             service = (IOperador) Naming.lookup(url);
@@ -37,7 +35,7 @@ public class ClienteOperador  implements  IOperador, Serializable {
         }
     }
 
-    @Override
+
     public boolean actualizarCliente(String nombre, String direccion, String telefono, String tipoDeCuenta) throws RemoteException {
         try{
             service = (IOperador) Naming.lookup(url);
@@ -48,7 +46,7 @@ public class ClienteOperador  implements  IOperador, Serializable {
         }
     }
 
-    @Override
+
     public boolean ingresarPedido(String producto, String codigo, String cantidad) throws RemoteException {
         try{
             service = (IOperador) Naming.lookup(url);
@@ -59,7 +57,7 @@ public class ClienteOperador  implements  IOperador, Serializable {
         }
     }
 
-    @Override
+
     public boolean actualizarPedido(String producto, String codigo, String cantidad) throws RemoteException {
         try{
             service = (IOperador) Naming.lookup(url);
@@ -70,8 +68,9 @@ public class ClienteOperador  implements  IOperador, Serializable {
         }
     }
 
-    @Override
-    public ColasArray[] pedidosFrecuentesCliente(String telefono) throws RemoteException {
+
+
+    public ColasArray pedidosFrecuentesCliente(String telefono) throws RemoteException {
         try{
             service = (IOperador) Naming.lookup(url);
             return service.pedidosFrecuentesCliente(telefono);
@@ -81,8 +80,7 @@ public class ClienteOperador  implements  IOperador, Serializable {
         }
     }
 
-    @Override
-    public Cliente busquedaPedido(String pedidoABuscar) throws RemoteException {
+    public ColasArray busquedaPedido(String pedidoABuscar) throws RemoteException {
         try{
             service = (IOperador) Naming.lookup(url);
             return service.busquedaPedido(pedidoABuscar);
@@ -92,14 +90,25 @@ public class ClienteOperador  implements  IOperador, Serializable {
         }
     }
 
-    @Override
-    public Cliente busquedaCliente(String clienteTelefonoABuscar) throws RemoteException {
+
+    public ColasArray busquedaCliente(String clienteTelefonoABuscar) throws RemoteException {
         try{
             service = (IOperador) Naming.lookup(url);
             return service.busquedaPedido(clienteTelefonoABuscar);
         } catch (MalformedURLException | RemoteException | NotBoundException e) {
             e.printStackTrace();
             return null;
+        }
+    }
+
+
+    public boolean validarUsuario(String modulo, String nombre, String contraseña) throws RemoteException {
+        try{
+            serviceUsuario = (IRegistro) Naming.lookup(url);
+            return serviceUsuario.validarUsuario(modulo,nombre,contraseña);
+        } catch (MalformedURLException | RemoteException | NotBoundException e) {
+            e.printStackTrace();
+            return false;
         }
     }
 }

@@ -21,7 +21,7 @@ public class Environment {
     }
 
     private String getPathProperties() {
-        return "/home/lestharkin/Projects/tmp/ed/workspace/appointment/server/env/env.properties";
+        return "src/server.properties";
     }
 
     private void loadVariables(String path) {

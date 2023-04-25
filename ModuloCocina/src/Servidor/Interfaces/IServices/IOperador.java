@@ -13,8 +13,8 @@ public interface IOperador extends Remote {
     boolean ingresarPedido(String producto, String codigo, String cantidad) throws RemoteException;//ingresar un pedido
     boolean actualizarPedido(String producto, String codigo, String cantidad) throws RemoteException;//actualizar un pedido
     ColasArray[] pedidosFrecuentesCliente(String telefono) throws RemoteException;//pedidos mas solicitados por el cliente
-    Cliente busquedaPedido(String pedidoABuscar) throws RemoteException; //busqueda de pedido
-    Cliente busquedaCliente(String clienteTelefonoABuscar) throws RemoteException; //busqueda de cliente
+    ColasArray[] busquedaPedido(String pedidoABuscar) throws RemoteException; //busqueda de pedido
+    ColasArray[] busquedaCliente(String clienteTelefonoABuscar) throws RemoteException; //busqueda de cliente
 
 
 

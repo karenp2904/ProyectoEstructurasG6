@@ -39,12 +39,12 @@ public class ControllerOperador implements IControllerOperador, Serializable {
     }
 
     @Override
-    public String busquedaPedido(String pedidoABuscar) {
+    public ColasArray[] busquedaPedido(String pedidoABuscar) {
         return modeloOperador.busquedaPedido(pedidoABuscar);
     }
 
     @Override
-    public Cliente busquedaCliente(String clienteTelefonoABuscar) {
+    public ColasArray[] busquedaCliente(String clienteTelefonoABuscar) {
         return modeloOperador.busquedaCliente(clienteTelefonoABuscar);
     }
 

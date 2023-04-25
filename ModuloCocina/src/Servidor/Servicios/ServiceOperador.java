@@ -52,12 +52,12 @@ public class ServiceOperador extends UnicastRemoteObject implements IOperador {
     }
 
     @Override
-    public Cliente busquedaPedido(String pedidoABuscar) {
+    public ColasArray[] busquedaPedido(String pedidoABuscar) {
         return controllerOperador.busquedaPedido(pedidoABuscar);
     }
 
     @Override
-    public Cliente busquedaCliente(String clienteABuscar) {
+    public ColasArray[] busquedaCliente(String clienteABuscar) {
         return controllerOperador.busquedaCliente(clienteABuscar);
     }
 
