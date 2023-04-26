@@ -7,7 +7,8 @@ import Servidor.Dominio.Pedido;
 public interface IControllerCocina {
 
     Factura extraerPedido(); //devuelve la informacion del pedido
-    PriorityQueue pantallaDePedidos(Pedido pedido,int prioridad);
+    PriorityQueue pantallaDePedidos();
     int clasificarPedidoPrioridad(Factura factura);
     boolean entregarPedido(PriorityQueue queue);
+    int entregarNumeroFogon(Pedido pedido);
 }

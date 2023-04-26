@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae27cf3b-5fc8-4a93-9aba-7e39e00c2c02" name="Changes" comment="RMI CLIENTE OPERADOR- CONEXION VISTA-SERVICIO">
-      <change afterPath="$PROJECT_DIR$/ModuloOperador/src/client.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModuloCocina/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModuloCocina/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModuloCocina/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModuloCocina/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Controladores/ControllerOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Controladores/ControllerOperador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IController/IControllerOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IController/IControllerOperador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IServices/IOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IServices/IOperador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Modelos/ModeloOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Modelos/ModeloOperador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Shared/Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Shared/Environment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloOperador/src/ControladorOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloOperador/src/ControladorOperador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ModuloCocina/Servidor/server.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/ModuloCocina.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/ModuloCocina.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/ServiceOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/ServiceOperador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/server.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/server.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloOperador/src/client.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +71,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_directory_selection": "C:/Users/karen/IdeaProjects/ProyectoEstructurasG6",
-    "last_opened_file_path": "C:/Users/karen/IdeaProjects/ProyectoEstructurasG6/ModuloOperador/src",
+    "last_opened_file_path": "C:/Users/karen/IdeaProjects/ProyectoEstructurasG6",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -425,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682447304592</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="RMI CLIENTE OPERADOR- CONEXION VISTA-SERVICIO">
+      <created>1682449195528</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1682449195529</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

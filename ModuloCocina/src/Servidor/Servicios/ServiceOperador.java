@@ -9,9 +9,11 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-
+/*
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+
+ */
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
@@ -47,23 +49,23 @@ public class ServiceOperador extends UnicastRemoteObject implements IOperador {
     }
 
     @Override
-    public ColasArray[] pedidosFrecuentesCliente(String telefono) {
+    public ColasArray pedidosFrecuentesCliente(String telefono) {
         return controllerOperador.pedidosFrecuentesCliente(telefono);
     }
 
     @Override
-    public ColasArray[] busquedaPedido(String pedidoABuscar) {
+    public ColasArray busquedaPedido(String pedidoABuscar) {
         return controllerOperador.busquedaPedido(pedidoABuscar);
     }
 
     @Override
-    public ColasArray[] busquedaCliente(String clienteABuscar) {
+    public ColasArray busquedaCliente(String clienteABuscar) {
         return controllerOperador.busquedaCliente(clienteABuscar);
     }
 
     //Json part 
     public class FileJsonAdapter<T> {
-
+/*
         public T getObject(String path, Class<T> classOfT) {
             T object = null;
             try (BufferedReader br = new BufferedReader(new FileReader(path))) {
@@ -87,6 +89,8 @@ public class ServiceOperador extends UnicastRemoteObject implements IOperador {
                 return false;
             }
         }
+
+ */
     }
 
 
