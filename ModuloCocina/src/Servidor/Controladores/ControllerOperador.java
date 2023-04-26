@@ -63,11 +63,13 @@ public class ControllerOperador implements IControllerOperador, Serializable {
         ModeloOperador datos = modeloOperador.obtenerDatos();
     
         // Escribir los datos en un archivo JSON
-        boolean exito = ServiceOperador.writeObject(archivoJSON, datos);
-    
+       // boolean exito = ServiceOperador.writeObject(archivoJSON, datos);
+    /*
         if (!exito) {
             System.err.println("Error al guardar los datos en el archivo JSON.");
         }
+
+     */
 
     }
     

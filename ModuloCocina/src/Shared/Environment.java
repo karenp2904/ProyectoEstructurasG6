@@ -21,7 +21,7 @@ public class Environment {
     }
 
     private String getPathProperties() {
-        return "ModuloCocina\\src\\server.properties";
+        return "src\\server.properties";
     }
 
     private void loadVariables(String path) {

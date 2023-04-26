@@ -5,6 +5,7 @@ import Estructuras.APriorityQueue.PriorityQueue;
 import Servidor.Controladores.ControllerCocina;
 import Servidor.Dominio.Factura;
 import Servidor.Dominio.Pedido;
+import Servidor.Interfaces.IController.IControllerCocina;
 import Servidor.Interfaces.IServices.ICocina;
 import Servidor.Servicios.ServiceCocina;
 

@@ -5,8 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae27cf3b-5fc8-4a93-9aba-7e39e00c2c02" name="Changes" comment="Prueba">
-      <change afterPath="$PROJECT_DIR$/ModuloOperador/src/client.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloOperador/src/VistaOperador/MainOperador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/ADMIN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/COCINA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/FotoPerrito.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/INGRESAR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/INGRESAR2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/INICI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/INICIO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/INICIO2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/Logo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/MODULO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/OPERADOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/REPARTIDOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/SALIR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/SALIR2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/botonActivarCocina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/botonActivarCocina2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/botonAñadirOperador.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/botonAñadirOperador2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/botonAñadirProductos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/botonAñadirRepartidor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/botonAñadirRepartidor2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/btningresarPedido.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/btningresarPedido2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/entregado.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/entregado1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/fondoAzul.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/fondoLetras.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/loginAdmin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/loginCocina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/loginOperador.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/loginRepartidor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/logoPerrito.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/logoPerro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/menu2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/menuu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/pedido.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/puesto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/Imagenes/txt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/out/production/ModuloCocina/server.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Cocina/ControladorCocina/ControladorCocina.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Cocina/ControladorCocina/ControladorCocina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Controladores/ControllerOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Controladores/ControllerOperador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Shared/Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Shared/Environment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +102,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_directory_selection": "C:/Users/karen/IdeaProjects/ProyectoEstructurasG6",
-    "last_opened_file_path": "C:/Users/karen/IdeaProjects/ProyectoEstructurasG6/ModuloOperador/src",
+    "last_opened_file_path": "C:/Users/karen/IdeaProjects/ProyectoEstructurasG6/ModuloCocina",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -68,13 +111,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloOperador\src" />
       <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloCocina\src\Servidor\Modelos" />
       <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloRepartidor\src" />
-      <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloOperador\src" />
       <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloCocina\src\Estructuras" />
       <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloCocina\src\Servidor" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloCocina\src" />
+      <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloOperador\src" />
       <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloCocina\src\VistaCocina" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -391,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682268380314</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Prueba">
+      <created>1682482197867</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1682482197867</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -410,7 +462,8 @@
     <MESSAGE value="Implementacion de paquetes en el servidor" />
     <MESSAGE value="Infraestructura del servidor- Organización de interfaces para los servicios y los controladores del servidor" />
     <MESSAGE value="Conexion de controladores con los modelos en el servidor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Conexion de controladores con los modelos en el servidor" />
+    <MESSAGE value="Prueba" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prueba" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
