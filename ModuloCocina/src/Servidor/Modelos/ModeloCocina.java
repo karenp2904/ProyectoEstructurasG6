@@ -1,24 +1,37 @@
 package Servidor.Modelos;
 
 import Estructuras.APriorityQueue.PriorityQueue;
+import Estructuras.Colas.ColasArray;
 import Servidor.Dominio.Cliente;
 import Servidor.Dominio.Factura;
 import Servidor.Dominio.Pedido;
 import Servidor.Interfaces.IController.IControllerCocina;
 
 public class ModeloCocina implements IControllerCocina {
+
+    PriorityQueue colaDespacho=new PriorityQueue(5);
+    ColasArray numFogon=new ColasArray();
     @Override
     public Factura extraerPedido() {
-
         //este objeto es temporal mientras se devuelven los archivos, llenar esos espacios cuando se tenga la info
         Factura fact= new Factura(new Pedido("Papas", "14","56"), new Cliente("berta", "pereza", "73773737", "premium"));
-        pantallaDePedidos(fact.getPedido(),clasificarPedidoPrioridad(fact));
+        guardarPedidos(fact.getPedido(),clasificarPedidoPrioridad(fact));
         return null;
     }
 
     @Override
-    public PriorityQueue pantallaDePedidos(Pedido pedido, int prioridad) {
-        return null;
+    public PriorityQueue pantallaDePedidos() {
+        return colaDespacho; // aqui se muestra la pantalla en la vista y se extrae
+    }
+
+    private PriorityQueue guardarPedidos(Pedido pedido, int prioridad) {
+        colaDespacho.insert(pedido,prioridad);
+        return colaDespacho;//aqui se guarda en el archivo
+    }
+
+
+    public int entregarNumeroFogon(Pedido pedido) {
+        return colaDespacho.searchPriority(pedido);
     }
 
     @Override

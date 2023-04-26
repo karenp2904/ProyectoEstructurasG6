@@ -134,14 +134,14 @@ public class VistaCocina extends JFrame{
 
         JLabel pedido=new JLabel();
         pedido.setBackground(Color.black);
-        pedido.setIcon(new ImageIcon("ModuloCocina/src/Imagenes/pedido.png"));
+        pedido.setIcon(new ImageIcon("src/Imagenes/pedido.png"));
         pedido.setFont(new Font("Arial", Font.BOLD, 30));
         pedido.setBounds(400,200,200,75);
 
 
         JLabel puesto=new JLabel();
         puesto.setBackground(Color.black);
-        puesto.setIcon(new ImageIcon("ModuloCocina/src/Imagenes/puesto.png"));
+        puesto.setIcon(new ImageIcon("src/Imagenes/puesto.png"));
         puesto.setFont(new Font("Arial", Font.BOLD, 30));
         puesto.setBounds(600,200,200,75);
 
@@ -159,7 +159,7 @@ public class VistaCocina extends JFrame{
         panelDespacho.setBackground(new Color(217, 217, 217));
 
         JLabel fondoLetras=new JLabel();
-        ImageIcon imagen =new ImageIcon("ModuloCocina/src/Imagenes/fondoLetras.png");
+        ImageIcon imagen =new ImageIcon("src/Imagenes/fondoLetras.png");
         fondoLetras.setIcon(imagen);
         fondoLetras.setSize(imagen.getIconWidth(), imagen.getIconHeight());
         this.setSize(imagen.getIconWidth(), imagen.getIconHeight());
@@ -195,7 +195,7 @@ public class VistaCocina extends JFrame{
 
         JButton botonPedidoListo=new JButton();
         botonPedidoListo.setBounds(400, y+15, 150, 50);
-        ImageIcon img= new ImageIcon("ModuloCocina/src/Imagenes/entregado.png");// se le pone icono a boton
+        ImageIcon img= new ImageIcon("src/Imagenes/entregado.png");// se le pone icono a boton
         // Icon i= new ImageIcon(img.getImage().getScaledInstance(botonPedidoListo.getWidth(), botonPedidoListo.getHeight(), Image.SCALE_DEFAULT));
         botonPedidoListo.setIcon(img);
         botonPedidoListo.setLayout(null);
@@ -206,7 +206,7 @@ public class VistaCocina extends JFrame{
         botonPedidoListo.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                ImageIcon imgadmin= new ImageIcon("ModuloCocina/src/Imagenes/entregado1.png");// se le pone icono a boton
+                ImageIcon imgadmin= new ImageIcon("src/Imagenes/entregado1.png");// se le pone icono a boton
                 //  Icon iconAdmin= new ImageIcon(imgadmin.getImage().getScaledInstance(botonPedidoListo.getWidth(), botonPedidoListo.getHeight(), Image.SCALE_DEFAULT));
                 botonPedidoListo.setIcon(imgadmin);
                 botonPedidoListo.setBackground(new Color(217, 217, 217));

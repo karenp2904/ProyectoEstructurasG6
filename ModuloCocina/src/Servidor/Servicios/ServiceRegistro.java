@@ -16,11 +16,6 @@ public class ServiceRegistro extends UnicastRemoteObject implements IRegistro {
     }
 
     @Override
-    public boolean registroUsuario(String nombre, String contraseña) {
-        return controllerRegistro.registroUsuario(nombre,contraseña);
-    }
-
-    @Override
     public boolean validarUsuario(String modulo, String nombre, String contraseña) {
         return controllerRegistro.validarUsuario(modulo,nombre,contraseña);
     }

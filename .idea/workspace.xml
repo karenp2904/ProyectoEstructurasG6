@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae27cf3b-5fc8-4a93-9aba-7e39e00c2c02" name="Changes" comment="Conexion de controladores con los modelos en el servidor">
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/ModeloCocina/JSON.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/ModeloCocina/JSON/Cliente.json" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Modelos/JSON/Cliente.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/ModeloCocina/JSON/Facturas.json" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Modelos/JSON/Facturas.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/ModeloCocina/JSON/JSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Modelos/JSON/JSON.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/ModeloCocina/JSON/Menu.json" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Modelos/JSON/Menu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/ModeloCocina/JSON/Pedidos.json" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Modelos/JSON/Pedidos.json" afterDir="false" />
+    <list default="true" id="ae27cf3b-5fc8-4a93-9aba-7e39e00c2c02" name="Changes" comment="Prueba">
+      <change afterPath="$PROJECT_DIR$/ModuloOperador/src/ControladorOperador/ClienteOperador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IServices/IOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IServices/IOperador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/ServiceOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/ServiceOperador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuloOperador/src/ControladorOperador/ControladorOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloOperador/src/ControladorOperador/ControladorOperador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Angie" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,7 +63,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/karen/IdeaProjects/ProyectoEstructurasG6&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Estructuras/LISTAS&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/karen/IdeaProjects/ProyectoEstructurasG6/ModuloCocina/src/Servidor/Modelos&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -72,11 +72,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloCocina\src\Servidor\Modelos" />
       <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloRepartidor\src" />
       <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloOperador\src" />
       <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloCocina\src\Estructuras" />
       <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloCocina\src\Servidor" />
-      <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloCocina\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\karen\IdeaProjects\ProyectoEstructurasG6\ModuloCocina\src\VistaCocina" />
@@ -397,17 +397,6 @@
     </task>
     <option name="localTasksCounter" value="35" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="probando" />

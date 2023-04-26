@@ -1,5 +1,7 @@
 package VistaOperador;
 
+import Estructuras.Colas.ColasArray;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -197,11 +199,6 @@ public class VistaOperadorDatos extends JFrame {
         letreroIngreso.setFont(new Font("Arial", Font.BOLD, 40));
         letreroIngreso.setBounds(500, 150, 600, 200);
 
-        String buscar=buscarPedido();
-        String producto=ingresarProducto();
-        String cantidad=ingresarCantidad();
-        String tamaño= ingresarCodido();
-
         JLabel productoText = new JLabel("PRODUCTO: ");
         productoText.setBackground(Color.black);
         productoText.setFont(new Font("Arial", Font.BOLD, 20));
@@ -284,6 +281,21 @@ public class VistaOperadorDatos extends JFrame {
         String nombrePedido=txbuscarPedido.getText();
         panelCentral.add(txbuscarPedido);
         return nombrePedido;
+    }
+
+    //metodo para segun el pedido de la barra de busqueda se muestren los parecidos
+    public void mostrarPedidosEncontrados(ColasArray pedidosEncontrados){
+        //letrero del registro de clinetes en el panel
+        int y=10;//se define la altura
+        while(pedidosEncontrados.size()==0) {
+            JLabel titulo=new JLabel(pedidosEncontrados.dequeue().toString());
+            titulo.setBackground(Color.black);
+            titulo.setFont(new Font("Arial", Font.BOLD, 20));
+            titulo.setBounds(50,y,600,100);
+            panelCompletar.add(titulo);
+            y+=40;//se le agrega distancia a y para la ubicacion del texto
+
+        }
     }
 
     //metodo para ingresar producto del pedido

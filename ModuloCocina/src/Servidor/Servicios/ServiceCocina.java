@@ -18,10 +18,13 @@ public class ServiceCocina extends UnicastRemoteObject implements ICocina {
         this.controllerCocina=controllerCocina; //controlador
     }
 
+
     @Override
-    public PriorityQueue pantallaDePedidos(Pedido pedido, int prioridad) throws RemoteException {
-        return controllerCocina.pantallaDePedidos(pedido,prioridad);
+    public PriorityQueue pantallaDePedidos() throws RemoteException {
+        return controllerCocina.pantallaDePedidos() ;
     }
+
+
 
     @Override
     public int clasificarPedidoPrioridad(Factura factura) throws RemoteException {
@@ -31,5 +34,10 @@ public class ServiceCocina extends UnicastRemoteObject implements ICocina {
     @Override
     public boolean entregarPedido(PriorityQueue queue) throws RemoteException {
         return controllerCocina.entregarPedido(queue);
+    }
+
+    @Override
+    public int entregarNumeroFogon(Pedido pedido) throws RemoteException {
+        return controllerCocina.entregarNumeroFogon(pedido);
     }
 }

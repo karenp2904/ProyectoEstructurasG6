@@ -28,17 +28,17 @@ public class ModeloOperador implements IControllerOperador {
     }
 
     @Override
-    public ColasArray[] pedidosFrecuentesCliente(String telefono) {
-        return new ColasArray[0];
-    }
-
-    @Override
-    public String busquedaPedido(String pedidoABuscar) {
+    public ColasArray pedidosFrecuentesCliente(String telefono) {
         return null;
     }
 
     @Override
-    public Cliente busquedaCliente(String clienteTelefonoABuscar) {
+    public ColasArray busquedaPedido(String pedidoABuscar) {
+        return null;
+    }
+
+    @Override
+    public ColasArray busquedaCliente(String clienteTelefonoABuscar) {
         return null;
     }
 
