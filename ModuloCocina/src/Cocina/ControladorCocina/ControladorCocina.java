@@ -18,7 +18,7 @@ public class ControladorCocina {
     public ControladorCocina() throws RemoteException {
         metodos();
     }
-
+//metodo para la conexion
     public void metodos() throws RemoteException {
         while (!serviceCocina.pantallaDePedidos().isEmpty()){
             Pedido pedido= (Pedido) serviceCocina.pantallaDePedidos().extract();
