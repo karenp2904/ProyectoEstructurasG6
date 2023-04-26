@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae27cf3b-5fc8-4a93-9aba-7e39e00c2c02" name="Changes" comment="Prueba">
-      <change afterPath="$PROJECT_DIR$/ModuloOperador/src/ControladorOperador/ClienteOperador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IServices/IOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Interfaces/IServices/IOperador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/ServiceOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloCocina/src/Servidor/Servicios/ServiceOperador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuloOperador/src/ControladorOperador/ControladorOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuloOperador/src/ControladorOperador/ControladorOperador.java" afterDir="false" />
-    </list>
+    <list default="true" id="ae27cf3b-5fc8-4a93-9aba-7e39e00c2c02" name="Changes" comment="Prueba" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +19,7 @@
     </option>
   </component>
   <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="main" />
+    <option name="BRANCH" value="Angie" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
