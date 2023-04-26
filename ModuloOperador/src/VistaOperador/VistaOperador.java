@@ -1,5 +1,7 @@
 package VistaOperador;
 
+import Estructuras.Colas.ColasArray;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -404,10 +406,10 @@ public class VistaOperador extends JFrame {
 
 
     //metodo para editan los pedidos frecuentes del cliente
-    public void setPedidosCliente(String[] pedidosFrecuentes){
+    public void setPedidosCliente(ColasArray pedidosFrecuentes){
         int y=50;//se define la altura
-        for (int i = 0; i < pedidosFrecuentes.length ; i++) {
-            JLabel titulo=new JLabel(pedidosFrecuentes[i]);
+        while(pedidosFrecuentes.size()==0) {
+            JLabel titulo=new JLabel(pedidosFrecuentes.dequeue().toString());
             titulo.setBackground(Color.black);
             titulo.setFont(new Font("Arial", Font.BOLD, 20));
             titulo.setBounds(100,y,600,100);

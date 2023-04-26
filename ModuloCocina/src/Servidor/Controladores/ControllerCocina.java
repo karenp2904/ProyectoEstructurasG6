@@ -19,8 +19,8 @@ public class ControllerCocina implements IControllerCocina, Serializable {
     }
 
     @Override
-    public PriorityQueue pantallaDePedidos(Pedido pedido,int prioridad) {
-        return modeloCocina.pantallaDePedidos(pedido,prioridad);
+    public PriorityQueue pantallaDePedidos() {
+        return modeloCocina.pantallaDePedidos();
     }
 
     @Override
@@ -31,5 +31,10 @@ public class ControllerCocina implements IControllerCocina, Serializable {
     @Override
     public boolean entregarPedido(PriorityQueue queue) {
         return modeloCocina.entregarPedido(queue);
+    }
+
+    @Override
+    public int entregarNumeroFogon(Pedido pedido) {
+        return modeloCocina.entregarNumeroFogon(pedido);
     }
 }

@@ -80,6 +80,17 @@ public class PriorityQueue implements QueueInterface {
 		}
 		return encontrado;
 	}
+
+	public int searchPriority(Object object) {
+		int prioridad=0;
+		for (int i = 0; i < arrayQueue.length; i++) {
+			Queue queue=arrayQueue[i];
+			if(queue.search(object)) {
+				prioridad=i;
+			}
+		}
+		return prioridad;
+	}
 	
 	
 	public void sort() {
